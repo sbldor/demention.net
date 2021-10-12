@@ -1,27 +1,23 @@
 @font-face {
-  font-family: "Inter";
-  src: url("./fonts/Inter-Bold.woff") format("woff"),
-    url("./fonts/Inter-Bold.woff2") format("woff2");
-  font-weight: bold;
+  font-family: "Golos-Bold";
+  src: url("./fonts/Golos-UI_Bold.ttf") format("ttf");
+  font-weight: 700;
 }
-
+ 
 @font-face {
-  font-family: "Inter";
-  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
-    url("./fonts/Inter-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "Golos-Medium";
+  src: url("./fonts/Golos-UI_Medium.ttf") format("ttf");
+  font-weight: 500;
 }
-
+ 
 @font-face {
-  font-family: "Inter";
-  src: url("./fonts/Inter-SemiBold.woff2") format("woff2"),
-    url("./fonts/Inter-SemiBold.woff") format("woff");
-  font-weight: 600;
+  font-family: "Golos-Regular";
+  src: url("./fonts/Golos-UI_Regular.ttf") format("ttf");
+  font-weight: 400;
 }
-
+ 
 @font-face {
-  font-family: "Inter";
-  src: url("./fonts/Inter-Black.woff2") format("woff2"),
-    url("./fonts/Inter-Black.woff") format("woff");
-  font-weight: 900;
+  font-family: "Golos-VF";
+  src: url("./fonts/Golos-UI_VF.ttf") format("tff");
+  font-weight: 400;
 }
