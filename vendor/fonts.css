@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Golos-Bold";
-  src: url("./fonts/Golos-UI_Bold.ttf") format("ttf");
+  font-family: "Golos";
+  src: url("./fonts/Golos-UI_Bold.ttf") format("truetype");
   font-weight: 700;
 }
- 
+
 @font-face {
-  font-family: "Golos-Medium";
-  src: url("./fonts/Golos-UI_Medium.ttf") format("ttf");
+  font-family: "Golos";
+  src: url("./fonts/Golos-UI_Medium.ttf") format("truetype");
   font-weight: 500;
 }
- 
+
 @font-face {
-  font-family: "Golos-Regular";
-  src: url("./fonts/Golos-UI_Regular.ttf") format("ttf");
+  font-family: "Golos";
+  src: url("./fonts/Golos-UI_Regular.ttf") format("truetype");
   font-weight: 400;
 }
- 
+
 @font-face {
-  font-family: "Golos-VF";
-  src: url("./fonts/Golos-UI_VF.ttf") format("tff");
-  font-weight: 400;
+  font-family: "Golos";
+  src: url("./fonts/Golos-UI_VF.ttf") format("truetype");
+  font-weight: 400 700;
 }
