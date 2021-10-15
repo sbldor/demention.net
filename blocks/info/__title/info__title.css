@@ -1,0 +1,16 @@
+.info__title {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 40px;
+  color: #6d097a;
+  font-size: 50px;
+  font-family: Golos, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+  .info__title {
+    font-size: 45px;
+  }
+}

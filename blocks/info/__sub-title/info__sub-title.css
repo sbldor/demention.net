@@ -1,0 +1,10 @@
+.info__sub-title {
+  margin: 0 0 0 60%;
+  padding-bottom: 30px;
+  color: #6d097a;
+  font-size: 30px;
+  text-align: end;
+  font-family: Golos, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
