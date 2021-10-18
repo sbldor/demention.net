@@ -1,0 +1,19 @@
+.test__menu {
+  position: absolute;
+  top: 170px;
+  left: 76px;
+}
+
+@media screen and (max-width:767px){
+  .test__menu {
+  top: 160px;
+  left: 35px;
+  }
+}
+
+@media screen and (max-width:639px){
+  .test__menu {
+    top: 165px;
+    left: 25px;
+  }
+}

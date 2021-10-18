@@ -1,0 +1,22 @@
+.test__button-container {
+  display: flex;
+  position: absolute;
+  bottom: 52px;
+  left: 71px;
+}
+
+@media screen and (max-width:767px) {
+  .test__button-container {
+    bottom: 30px;
+    left: 44px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .test__button-container {
+    bottom: 33px;
+    left: 88px;
+  }
+}
+
+

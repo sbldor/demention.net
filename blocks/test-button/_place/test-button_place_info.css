@@ -1,0 +1,14 @@
+.test-button_place_info {
+  font-size: 16px;
+  width: 187px;
+  height: 43px;
+  line-height: 43px;
+}
+
+@media screen and (max-width:640px) {
+  .test-button_place_info {
+    width: 106px;
+    height: 24px;
+    line-height: 24px;
+  }
+}
