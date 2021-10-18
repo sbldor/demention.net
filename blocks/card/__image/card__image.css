@@ -1,0 +1,20 @@
+.card__image {
+  min-width: 424px;
+  min-height: 320px;
+  object-fit: cover;
+}
+
+@media (max-width: 1500px) {
+  .card__image {
+    min-width: 280px;
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .card__image {
+    min-width: 200px;
+    min-height: 150px;
+  }
+}
+

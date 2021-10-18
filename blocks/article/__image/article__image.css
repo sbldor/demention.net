@@ -1,0 +1,11 @@
+.article__image {
+  margin: auto;
+  max-width: 1440px;
+}
+
+@media (max-width: 1440px) {
+  .article__image {
+    max-width: 1080px;
+  }
+
+}

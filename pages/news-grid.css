@@ -1,0 +1,35 @@
+@import url(../vendor/normalize.css);
+
+@import url(/pages/index.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/_page/page_page_news-grid.css);
+@import url(../blocks/content/_page/content_page_news-grid.css);
+@import url(../blocks/news-grid/__heading/news-grid__heading.css);
+@import url(../blocks/news-grid/__case/news-grid__case.css);
+@import url(../blocks/news-grid/__cards/news-grid__cards.css);
+@import url(../blocks/news-grid/__background/news-grid__background.css);
+@import url(../blocks/news-grid/__background/_theme/news-grid__background_theme_lightgreen.css);
+@import url(../blocks/news-grid/__background/_theme/news-grid__background_theme_purple.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__case/card__case.css);
+@import url(../blocks/card/__heading/card__heading.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__caption/card__caption.css);
+@import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/news-grid/__semicircle/news-grid__semicircle.css);
+@import url(../blocks/news-grid/__green-puzzle/news-grid__green-puzzle.css);
+@import url(../blocks/news-grid/__purple-puzzle/news-grid__purple-puzzle.css);
+@import url(../blocks/news-grid/__half-green-puzzle/news-grid__half-green-puzzle.css);
+@import url(../blocks/news-grid/__purple-puzzle-bottom/news-grid__purple-puzzle-bottom.css);
+@import url(../blocks/news-grid/__half-green-puzzle-translucent/news-grid__half-green-puzzle-translucent.css);
+
+
+/*
+1. я поправил фон. осталось его адаптировать навкус. это не сложно)
+2. адаптироапл карточки, но чтото им мешает, не понимаю что.
+3. добавил классноую тень карточкам, так луше на белом фоне, мне кажется.
+4. ? остался по мелочи адаптив, за исключением основной пролеьы, которую я описал выше. ?
+
+*/

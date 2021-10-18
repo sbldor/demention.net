@@ -1,0 +1,14 @@
+.news-grid__half-green-puzzle-translucent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8.25%;
+  height: 17.7%;
+}
+
+@media (max-width: 1020px) {
+  .news-grid__half-green-puzzle-translucent {
+    width: 10.5%;
+    height: 21%;
+  }
+}

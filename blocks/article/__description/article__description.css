@@ -1,0 +1,10 @@
+.article__description {
+  display: inline-block;
+  color: #6d097a;
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 700;
+  font-style: normal;
+  max-width: 1150px;
+
+}

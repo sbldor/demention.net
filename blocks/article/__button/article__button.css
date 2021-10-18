@@ -1,0 +1,16 @@
+.article__button {
+  background-color: transparent;
+  border: none;
+  color: #5B5B5B;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1em 0;
+  padding: 0;
+  max-width: 400px;
+}
+
+.article__button:hover {
+  opacity: .7;
+  transition: opacity .2s ease-in;
+}
