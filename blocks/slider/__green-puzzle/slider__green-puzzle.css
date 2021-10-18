@@ -1,0 +1,7 @@
+.slider__green-puzzle {
+  position: absolute;
+  top: 90px;
+  left: 20%;
+  width: 7.9%;
+  z-index: -1;
+}

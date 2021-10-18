@@ -1,0 +1,6 @@
+.slider__button-left {
+  background-color: rgba(0, 0, 0, .0);
+  object-fit: cover;
+  height: 26px;
+  padding-right: 10px;
+}
