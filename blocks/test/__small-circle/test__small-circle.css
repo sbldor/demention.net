@@ -1,0 +1,27 @@
+.test__small-circle {
+width: 64px;
+height: 64px;
+background: url(../../../images/smallcircle.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+right: 178px;
+bottom: 227px;
+z-index: 297;
+}
+
+@media screen and (max-width:890px) {
+  .test__small-circle {
+    width: 48px;
+    height: 48px;
+    right: 125px;
+    bottom: 190px;
+    }
+}
+
+@media screen and (max-width:640px) {
+  .test__small-circle {
+    right: 120px;
+    bottom: 197px;
+  }
+}

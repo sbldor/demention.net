@@ -1,0 +1,9 @@
+.article-slider__swiper {
+  height: 465px;
+}
+
+@media screen and (max-width:767px){
+  .article-slider__swiper {
+    height: 403px;
+  }
+}

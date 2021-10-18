@@ -1,0 +1,16 @@
+.test-button_place_hero {
+  font-size: 15px;
+  width: 167px;
+  height: 40px;
+  line-height: 40px;
+  z-index: 301;
+}
+
+@media screen and (max-width:767px) {
+  .test-button_place_hero {
+    font-size: 13px;
+    width: 145px;
+    height: 34px;
+    line-height: 34px;
+  }
+}
