@@ -1,0 +1,10 @@
+.card__text {
+  color: #5B5B5B;
+  font-size: 18px;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  max-width: 424px;
+  max-height: 125px;
+}

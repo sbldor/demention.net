@@ -1,0 +1,10 @@
+.card__button {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  color: #6D097A;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}

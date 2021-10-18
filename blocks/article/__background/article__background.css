@@ -1,0 +1,8 @@
+.article__background {
+  position: absolute;
+  margin-top: 2em;
+  background-color: #CAE6DF;
+  width: 100vw;
+  height: 400px;
+  z-index: -2;
+}
