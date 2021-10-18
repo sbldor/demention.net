@@ -1,0 +1,10 @@
+.about__main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 540px) {
+    .about__main-container {
+        grid-area: main;
+    }
+}

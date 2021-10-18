@@ -1,0 +1,27 @@
+.sponsors__semicircle {
+    position: absolute;
+    top: -160px;
+    right: 37.5%;
+    max-width: 250px;
+}
+
+@media screen and (max-width: 750px) {
+    .sponsors__semicircle {
+        max-width: 220px;
+        top: -140px;
+        right: 37%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sponsors__semicircle {
+        max-width: 140px;
+        right: 12%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .sponsors__semicircle {
+        right: 7%;
+    }
+}

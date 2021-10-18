@@ -1,0 +1,21 @@
+.about__decoration-image {
+    max-width: 230px;
+    width: 24%;
+    align-self: flex-start;
+    margin: -2% 4% 0 0;
+}
+
+@media screen and (max-width: 750px) {
+    .about__decoration-image {
+        margin: -3% 3% 0 -6%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about__decoration-image {
+        margin: -8% 3% 10% -25%;
+        width: 100%;
+        min-width: 150px;
+    }
+}
