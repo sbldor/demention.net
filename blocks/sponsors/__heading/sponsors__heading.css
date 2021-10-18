@@ -1,0 +1,32 @@
+.sponsors__heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    color: #6D097A;
+    text-transform: uppercase;
+    margin: 140px 0 5px 10%;
+}
+
+.sponsors__heading:hover {
+    color: green;
+}
+
+@media screen and (max-width: 750px) {
+    .sponsors__heading {
+        font-size: 38px;
+        margin: 120px 0 5px 10%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sponsors__heading {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sponsors__heading {
+        font-size: 32px;
+    }
+}
