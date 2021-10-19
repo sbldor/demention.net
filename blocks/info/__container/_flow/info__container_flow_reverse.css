@@ -1,0 +1,5 @@
+@media screen and (max-width: 641px) {
+  .info__container_flow_reverse {
+    flex-direction: column-reverse;
+  }
+}

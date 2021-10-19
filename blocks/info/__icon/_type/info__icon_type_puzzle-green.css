@@ -1,0 +1,23 @@
+.info__icon_type_puzzle-green {
+  width: 66px;
+  height: 56px;
+  position: absolute;
+  top: 265px;
+  left: 70px;
+  background-image: url("/images/decor/decor_puzzle-green.png");
+  z-index: 2;
+}
+
+@media screen and (max-width: 960px) {
+  .info__icon_type_puzzle-green {
+    top: 265px;
+    left: 70px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .info__icon_type_puzzle-green {
+    top: 175px;
+    left: 70px;
+  }
+}
