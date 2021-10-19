@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,33 +12,35 @@
         <header class="header">
             <div class="header__burger"></div>
             <div class="header__container">
-                <div class="logo logo_place_header" role="img"></div>
+                <a href="./"
+                ><img class="logo logo_place_header" src="./images/logo.svg" alt="логотип">
+                </a>
                 <nav class="header__menu">
                     <ul class="header__links header__links_page_index">
                         <li>
-                            <a href="" class="header__link header__link_page_index">О ДЕМЕНЦИИ</a>
+                            <a href="#info" class="header__link header__link_page_index">О ДЕМЕНЦИИ</a>
                         </li>
                         <li>
-                            <a href="" class="header__link header__link_page_index">ПРОЕКТЫ</a>
+                            <a href="#projects" class="header__link header__link_page_index">ПРОЕКТЫ</a>
                         </li>
                         <li>
-                            <a href="" class="header__link header__link_page_index">ПАРТНЕРЫ</a>
+                            <a href="#sponsors" class="header__link header__link_page_index">ПАРТНЕРЫ</a>
                         </li>
                         <li>
-                            <a href="" class="header__link header__link_page_index">НОВОСТИ</a>
+                            <a href="./news-grid.html" class="header__link header__link_page_index">НОВОСТИ</a>
                         </li>
                         <li>
-                            <a href="" class="header__link header__link_page_index">О ФОНДЕ</a>
+                            <a href="#about" class="header__link header__link_page_index">О ФОНДЕ</a>
                         </li>
                         <li>
-                            <a href="" class="header__link header__link_page_index">КОНТАКТЫ</a>
+                            <a href="#" class="header__link header__link_page_index">КОНТАКТЫ</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="content content_page_index">
-            <section class="hero">
+          <section class="hero">
                 <div class="test">
                     <nav class="test__menu">
                         <ul class="test__menu-links">
@@ -50,7 +51,7 @@
                                 <a class="test__menu-link" href="#">ЦЕНТРЫ ПРОФИЛАКТИКИ</a>
                             </li>
                             <li>
-                                <a class="test__menu-link" href="#">ЗНАНИЯ</a>
+                                <a class="test__menu-link" href="./article.html">ЗНАНИЯ</a>
                             </li>
                         </ul>
                     </nav>
@@ -99,8 +100,8 @@
                         </div>
                     </div>
                 </article>
-            </section>
-          <section class="info">
+          </section>
+        <section class="info" id="info">
           <div class="info__container info__container_flow_column">
             <div class="info__content">
               <h2 class="info__title">О&nbsp;деменции</h2>
@@ -132,13 +133,15 @@
                 <img class="info__photo" src="/images/old_couple.png" alt="Пожелая пара">
                 <span class="info__icon info__icon_type_puzzle-purple"></span>
               </div>
+              <form class="info__button-form" action="https://xn--d1acamsh7dwd.net/test/testUser/" target="_blank">
               <button class="info__button">Пройти тест
                 <span class="info__icon info__icon_type_round-green"></span>
               </button>
+            </form>
             </div>
           </div>
         </section>
-            <section class="slider">
+            <section class="slider" id="projects">
                 <h2 class="slider__title">А также:</h2>
                 <p class="slider__subtitle">Другие проекты фонда</p>
                 <img src="images/slider/semicircle-purple-sluder.svg" alt="." class="slider__purple-semicircle">
@@ -190,7 +193,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <img class="about__decoration-image" src="./images/puzzle-white.svg">
                 <div class="about__main-container">
                     <h2 class="about__heading">О&nbsp;фонде</h2>
@@ -200,12 +203,12 @@
                 </div>
                 <img class="about__memory-image" src="./images/memory-image.svg">
             </section>
-            <section class="sponsors">
+            <section class="sponsors" id="sponsors">
                 <img class="sponsors__semicircle" src="./images/semicircle- purple.svg">
                 <h2 class="sponsors__heading">Кто с&nbsp;нами?</h2>
                 <p class="sponsors__description">Партнёры</p>
                 <div class="sponsors__swiper swiper">
-                    <div class="sponsors__swiper-wrapper swiper-wrapper">
+                    <div class="swiper-wrapper">
                         <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example1.png"></div>
                         <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example2.png"></div>
                         <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example3.jpg"></div>
@@ -227,7 +230,9 @@
         </footer>
         <div class="popup popup_page_index popup_type_menu">
             <div class="popup__container">
-                <div class="logo logo_place_popup"></div>
+              <a href="./"
+              ><img class="logo logo_place_popup" src="./images/logo.svg" alt="логотип">
+              </a>
                 <button class="popup__close-button popup__close-button_type_menu" id="image-close" type="button" aria-label="закрыть"></button>
                 <nav class="popup__menu">
                     <ul class="popup__links">
