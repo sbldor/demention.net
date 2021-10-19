@@ -4,7 +4,7 @@
   position: absolute;
   top: 265px;
   left: 70px;
-  background-image: url("/images/decor/decor_puzzle-green.png");
+  background-image: url("../../../../images/decor/decor_puzzle-green.png");
   z-index: 2;
 }
 
