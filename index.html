@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проект благотворительного фонда &quot;Память Поколений&quot;">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>Память поколений</title>
-  </head>
-  <body class="body">
-    <div class="page">
-      <header class="header">
-
-      </header>
-      <main class="content">
-        <section class="info">
+<body class="body">
+    <div class="page page_page_index">
+        <header class="header">
+            <div class="header__burger"></div>
+            <div class="header__container">
+                <div class="logo logo_place_header" role="img"></div>
+                <nav class="header__menu">
+                    <ul class="header__links header__links_page_index">
+                        <li>
+                            <a href="" class="header__link header__link_page_index">О ДЕМЕНЦИИ</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link header__link_page_index">ПРОЕКТЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link header__link_page_index">ПАРТНЕРЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link header__link_page_index">НОВОСТИ</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link header__link_page_index">О ФОНДЕ</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link header__link_page_index">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="content content_page_index">
+            <section class="hero">
+                <div class="test">
+                    <nav class="test__menu">
+                        <ul class="test__menu-links">
+                            <li>
+                                <a class="test__menu-link" href="https://xn--d1acamsh7dwd.net/test/testUser/" target='blank'>ТЕСТ НА ДЕМЕНЦИЮ</a>
+                            </li>
+                            <li>
+                                <a class="test__menu-link" href="#">ЦЕНТРЫ ПРОФИЛАКТИКИ</a>
+                            </li>
+                            <li>
+                                <a class="test__menu-link" href="#">ЗНАНИЯ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="test__puzzles" role="img"></div>
+                    <div class="test__decor" role="img"></div>
+                    <div class="test__big-circle" role="img"></div>
+                    <div class="test__medium-circle" role="img"></div>
+                    <div class="test__small-circle" role="img"></div>
+                    <div class="test__button-container">
+                        <a class="test-button test-button_place_hero" href="https://xn--d1acamsh7dwd.net/test/testUser/" target='blank'>ПРОЙТИ ТЕСТ</a>
+                    </div>
+                    <div class="test__button-image" role="img"></div>
+                </div>
+                <article class="article-slider">
+                    <div class="swiper article-slider__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide article-slider__slide">
+                                <div class="article-slider__info">
+                                    <div class="article-slider__title">Заголовок Статьи</div>
+                                    <a href="#" class="article-slider__link" target="blank">Подробнее</a>
+                                </div>
+                                <img src="./images/maninchair.png" alt="человек в маске" class="article-slider__picture">
+                            </div>
+                            <div class="swiper-slide article-slider__slide">
+                                <div class="article-slider__info">
+                                    <div class="article-slider__title">Заголовок Статьи</div>
+                                    <a href="#" class="article-slider__link" target="blank">Подробнее</a>
+                                </div>
+                                <img src="./images/maninchair.png" alt="человек в маске" class="article-slider__picture">
+                            </div>
+                            <div class="swiper-slide article-slider__slide">
+                                <div class="article-slider__info">
+                                    <div class="article-slider__title">Заголовок Статьи</div>
+                                    <a href="#" class="article-slider__link" target="blank">Подробнее</a>
+                                </div>
+                                <img src="./images/maninchair.png" alt="человек в маске" class="article-slider__picture">
+                            </div>
+                        </div>
+                        <div class="article-slider__button-prev swiper-button-prev">
+                            <img src="./images/slid-left.svg" alt="." class="article-slider__button-left">
+                        </div>
+                        <div class="article-slider__button-next swiper-button-next">
+                            <img src="./images/slid-right.svg" alt="." class="article-slider__button-right">
+                        </div>
+                        <div class="article-slider__pagination swiper-pagination">
+                        </div>
+                    </div>
+                </article>
+            </section>
+          <section class="info">
           <div class="info__container info__container_flow_column">
             <div class="info__content">
               <h2 class="info__title">О&nbsp;деменции</h2>
@@ -50,12 +138,127 @@
             </div>
           </div>
         </section>
-      </main>
-      <footer class="footer">
-
-      </footer>
-
+            <section class="slider">
+                <h2 class="slider__title">А также:</h2>
+                <p class="slider__subtitle">Другие проекты фонда</p>
+                <img src="images/slider/semicircle-purple-sluder.svg" alt="." class="slider__purple-semicircle">
+                <img src="images/slider/puzzle-green-slider.svg" alt="." class="slider__green-puzzle">
+                <div class="swiper slyder__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider__slide-purple slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект </a>
+                        </div>
+                        <div class="swiper-slide slider__slide-green slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект <br>"Герои России, какими их не видел никто"</a>
+                        </div>
+                        <div class="swiper-slide slider__slide-purple slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект <br>"Герои России, какими их не видел никто"</a>
+                        </div>
+                        <div class="swiper-slide slider__slide-green slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект <br>"Герои России, какими их не видел никто"</a>
+                        </div>
+                        <div class="swiper-slide slider__slide-purple slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект <br>"Герои России, какими их не видел никто"</a>
+                        </div>
+                        <div class="swiper-slide slider__slide-green slider__slide">
+                            <div class="slider__image-container">
+                                <img src="images/slider/old-woman.jpg" alt="." class="slider__image">
+                            </div>
+                            <a href="#" target="_blank" class="slider__image-info">фотопроект <br>"Герои России, какими их не видел никто"</a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="images/slider/slid-left.svg" alt="<" class="slider__button-left">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="images/slider/slid-right.svg" alt=">" class="slider__button-right">
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <img class="about__decoration-image" src="./images/puzzle-white.svg">
+                <div class="about__main-container">
+                    <h2 class="about__heading">О&nbsp;фонде</h2>
+                    <p class="about__description">Благотворительный Фонд &laquo;ПАМЯТЬ ПОКОЛЕНИЙ&raquo; &mdash;&nbsp;единственная в&nbsp;России некоммерческая организация, формирующая новую благотворительную традицию по&nbsp;оказанию адресной высокотехнологичной медицинской помощи
+                        ветеранам всех боевых действий, в&nbsp;которых принимала участие наша страна.</p>
+                    <button class="about__button">Перейти на сайт фонда</button>
+                </div>
+                <img class="about__memory-image" src="./images/memory-image.svg">
+            </section>
+            <section class="sponsors">
+                <img class="sponsors__semicircle" src="./images/semicircle- purple.svg">
+                <h2 class="sponsors__heading">Кто с&nbsp;нами?</h2>
+                <p class="sponsors__description">Партнёры</p>
+                <div class="sponsors__swiper swiper">
+                    <div class="sponsors__swiper-wrapper swiper-wrapper">
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example1.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example2.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example3.jpg"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example1.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example2.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example3.jpg"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example1.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example2.png"></div>
+                        <div class="sponsors__swiper-slide swiper-slide" href="#"><img class="sponsors__swiper-image" src="./images/sponsors_example3.jpg"></div>
+                    </div>
+                    <div class="sponsors__swiper-button-prev swiper-button-prev"><img src="./images/sponsors__arrow-left.svg" class="sponsors__button-left"></div>
+                    <div class="sponsors__swiper-button-next swiper-button-next"><img src="./images/sponsors__arrow-right.svg" class="sponsors__button-right"></div>
+                    <div class="sponsors__swiper-pagination swiper-pagination"></div>
+                </div>
+                <img class="sponsors__decoration-puzzle rotation" src="./images/puzzle-green.svg">
+            </section>
+        </main>
+        <footer class="footer">
+        </footer>
+        <div class="popup popup_page_index popup_type_menu">
+            <div class="popup__container">
+                <div class="logo logo_place_popup"></div>
+                <button class="popup__close-button popup__close-button_type_menu" id="image-close" type="button" aria-label="закрыть"></button>
+                <nav class="popup__menu">
+                    <ul class="popup__links">
+                        <li>
+                            <a href="" class="popup__link">О ДЕМЕНЦИИ</a>
+                        </li>
+                        <li>
+                            <a href="https://xn--d1acamsh7dwd.net/test/testUser/" class="popup__link">ПРОЙТИ ТЕСТ</a>
+                        </li>
+                        <li>
+                            <a href="" class="popup__link">ПРОЕКТЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="popup__link">ПАРТНЕРЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="popup__link">НОВОСТИ</a>
+                        </li>
+                        <li>
+                            <a href="" class="popup__link">О ФОНДЕ</a>
+                        </li>
+                        <li>
+                            <a href="" class="popup__link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
-  </body>
+</body>
+
 </html>

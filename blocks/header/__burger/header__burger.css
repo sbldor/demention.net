@@ -1,0 +1,27 @@
+.header__burger {
+  display: none;
+  z-index:456;
+}
+
+@media screen and (max-width:767px) {
+  .header__burger {
+    display:block;
+    width: 49px;
+    height: 33px;
+    background-image: url(../../../images/burger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 40px;
+    right: 25px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__burger {
+    width: 47px;
+    height: 21px;
+    top: 30px;
+    right: 18px;
+  }
+}

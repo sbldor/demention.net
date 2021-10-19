@@ -1,0 +1,32 @@
+.about__heading {
+    color: #FEFEFE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    margin: 70px 0 20px 0;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .about__heading {
+        margin: 15px 0 10px 0;
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about__heading {
+        text-align: end;
+        margin: 10px 5% 10px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .about__heading {
+        font-size: 30px;
+        text-align: center;
+    }
+}

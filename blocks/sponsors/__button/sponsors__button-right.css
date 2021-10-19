@@ -1,0 +1,10 @@
+.sponsors__button-right {
+    height: 30px;
+    padding-left: 110%;
+}
+
+@media screen and (max-width: 520px) {
+    .sponsors__button-right {
+        height: 20px;
+    }
+}

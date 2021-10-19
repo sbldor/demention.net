@@ -1,0 +1,35 @@
+.slider__purple-semicircle {
+  position: absolute;
+  top: 146px;
+  right: 0;
+
+  height: 300px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .slider__purple-semicircle {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .slider__purple-semicircle {
+    height: 260px;
+    top: 134px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider__purple-semicircle {
+    height: 240px;
+    top: 122px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slider__purple-semicircle {
+    height: 220px;
+    top: 115px;
+  }
+}

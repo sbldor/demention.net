@@ -1,0 +1,27 @@
+.news-grid__heading {
+  margin: auto;
+  margin-bottom: 85px;
+  font-size: 80px;
+  line-height: 1.15;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #6D097A;
+}
+
+@media (max-width: 800px) {
+  .news-grid__heading {
+    font-size: 64px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .news-grid__heading {
+    font-size: 42px;
+  }
+
+}

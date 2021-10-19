@@ -1,0 +1,13 @@
+.test-button {
+  display:inline-block;
+  background-color: #6D097A;
+  color: white;
+  margin: auto;
+  border-radius: 25px;
+  font-weight: 400;
+  border: none;
+  text-align:center;
+  text-decoration: none;
+}
+
+

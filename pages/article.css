@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+
+@import url(/pages/index.css);
+@import url(../blocks/page/_page/page_page_article.css);
+@import url(../blocks/content/_page/content_page_article.css);
+@import url(../blocks/article/__heading-case/article__heading-case.css);
+@import url(../blocks/article/__heading/article__heading.css);
+@import url(../blocks/article/__date/article__date.css);
+@import url(../blocks/article/__purple-puzzle/article__purple-puzzle.css);
+@import url(../blocks/article/__item/article__item.css);
+@import url(../blocks/article/__background/article__background.css);
+@import url(../blocks/article/__image/article__image.css);
+@import url(../blocks/article/__description-case/article__description-case.css);
+@import url(../blocks/article/__purple-semicircle/article__purple-semicircle.css);
+@import url(../blocks/article/__description/article__description.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__green-puzzle/article__green-puzzle.css);
+@import url(../blocks/article/__button/article__button.css);

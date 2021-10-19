@@ -1,0 +1,8 @@
+.slider__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*max-width: 240px;*/
+  /*height: 200px;*/
+}

@@ -1,0 +1,10 @@
+.popup__link {
+  margin-top: 25px;
+  line-height: 17px;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  color:#2B2A29;
+  transition: opacity 1s ease;
+}

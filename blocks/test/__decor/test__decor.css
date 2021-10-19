@@ -1,0 +1,26 @@
+.test__decor {
+  width: 48px;
+  height: 56px;
+  background: url(../../../images/greenpuzzle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 58px;
+  right: 35px;
+}
+
+@media screen and (max-width:767px) {
+  .test__decor {
+    width: 40px;
+    height: 41px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .test__decor {
+    width: 34px;
+    height: 30px;
+    top: 73px;
+    right: 100px;
+  }
+}

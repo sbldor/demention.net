@@ -1,0 +1,18 @@
+.news-grid__purple-puzzle-bottom {
+  position: absolute;
+  bottom: 450px;
+  right: 60px;
+  /*width: 170px;
+  height: 346px;*/
+  width: 4.9%;
+  height: 4.1%;
+}
+
+@media (max-width: 1020px) {
+  .news-grid__purple-puzzle-bottom {
+    width: 7.9%;
+    height: 4.1%;
+    right: 120px;
+  }
+
+}

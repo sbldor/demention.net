@@ -1,0 +1,9 @@
+.news-grid__half-green-puzzle {
+  position: absolute;
+  width: 9.4%;
+  height: 14.1%;
+  bottom: 200px;
+  left: 0;
+  z-index: -1;
+}
+
