@@ -107,4 +107,8 @@
 @import url("../blocks/sponsors/__button/sponsors__button-left.css");
 @import url("../blocks/sponsors/__button/sponsors__button-right.css");
 @import url("../blocks/rotation/rotation.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/_page/footer_page_index.css");
+@import url("../blocks/footer/_page/footer_page_news.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
 
