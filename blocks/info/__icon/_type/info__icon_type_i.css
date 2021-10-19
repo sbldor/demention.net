@@ -1,7 +1,13 @@
-.info__icon_type_i{
+.info__icon_type_i {
   width: 15px;
   height: 56px;
-  margin: 0 0 0 15px;
+  margin-left: 30px;
   background-image: url("/images/decor/icon_i.png");
   align-self: center;
+}
+
+@media screen and (max-width: 641px) {
+  .info__icon_type_i {
+    margin-left: 10px;
+  }
 }

@@ -1,9 +1,19 @@
 .info__card {
-  max-width: 400px;
-  margin: 100px 0 180px -30px;
-  padding: 20px 0 20px 30px;
+  max-width: 450px;
+  max-height: 135px;
+  margin: 100px 30px 180px -20px;
+  padding: 20px 0 20px 20px;
   background-color: #cae6df;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 641px) {
+  .info__card {
+    margin: -30px 30px 100px 30px;
+    align-self: center;
+  }
 }

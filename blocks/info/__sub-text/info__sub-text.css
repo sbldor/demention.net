@@ -1,8 +1,26 @@
 .info__sub-text {
-  margin: 0 0 0 50%;
-  padding: 0;
+  max-width: 200px;
+  margin: 0;
+  padding: 0 40px 60px 0;
+  align-self: flex-end;
   font-size: 18px;
   text-align: right;
   font-family: Golos, 'Ubuntu',Arial,sans-serif;
   line-height: 140%;
+}
+
+@media screen and (max-width: 961px) {
+  .info__sub-text {
+    max-width: 150px;
+    font-size: 14px;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .info__sub-text {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 40px;
+  }
 }

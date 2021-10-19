@@ -3,9 +3,13 @@
 @import url("../blocks/page/page.css");
 
 @import url("../blocks/info/info.css");
-@import url("../blocks/info/__disc-container/info__disc-container.css");
-@import url("../blocks/info/__ctrl-container/info__ctrl-container.css");
-@import url("../blocks/info/__card-container/info__card-container.css");
+@import url("../blocks/info/__container/info__container.css");
+@import url("../blocks/info/__container/_flow/info__container_flow_reverse.css");
+@import url("../blocks/info/__container/_flow/info__container_flow_column.css");
+@import url("../blocks/info/__content/info__content.css");
+@import url("../blocks/info/__content/_bkg/info__content_bkg_purple.css");
+@import url("../blocks/info/__content/_bkg/info__content_bkg_img.css");
+@import url("../blocks/info/__content/_offset/info__content_offset_left.css");
 @import url("../blocks/info/__title/info__title.css");
 @import url("../blocks/info/__text/info__text.css");
 @import url("../blocks/info/__sub-title/info__sub-title.css");
@@ -21,3 +25,5 @@
 @import url("../blocks/info/__icon/_type/info__icon_type_round-pink.css");
 @import url("../blocks/info/__icon/_type/info__icon_type_puzzle-green.css");
 @import url("../blocks/info/__icon/_type/info__icon_type_round-green.css");
+@import url("../blocks/info/__icon/_type/info__icon_type_puzzle-purple.css");
+@import url("../blocks/info/__photo/__container/info__photo__container.css");

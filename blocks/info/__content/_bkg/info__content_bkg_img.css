@@ -1,0 +1,41 @@
+.info__content_bkg_img {
+  content:"";
+  margin-top: 100px;
+  background-image: url("/images/decor/puzzle_decor.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: top 10px left 5px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1281px) {
+  .info__content_bkg_img{
+    background-position: top 0 right 46px;
+    background-size: 85%;
+
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .info__content_bkg_img{
+    background-position: top 0 right 46px;
+    background-size: 80%;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .info__content_bkg_img {
+    min-height: 230px;
+    margin: -100px 0 0 0;
+    align-self: flex-start;
+    background-image: url("/images/decor/puzzle_decor_flipped.png");
+    background-size: 190px;
+    background-position: bottom left 50px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .info__content_bkg_img {
+    background-position: bottom left 6px;
+  }
+}

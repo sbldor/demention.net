@@ -1,3 +1,26 @@
 .info__button {
+  margin-top: 50px;
+  width: 183px;
+  padding: 17px 33px 17px 33px;
+  border-radius: 150px;
+  display: flex;
+  position: relative;
+  align-self: center;
+}
 
+@media screen and (max-width: 641px) {
+  .info__button {
+    font-size: 14px;
+    width: 127px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 100px;
+    margin-right: 85px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info__button {
+    margin-right: 55px;
+  }
 }
