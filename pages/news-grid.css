@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
-
 @import url(/pages/index.css);
+@import url("../blocks/logo/_page/logo_page_news.css");
+@import url("../blocks/popup/_page/popup_page_news.css");
+@import url("../blocks/header/__links/_page/header__links_page_news.css");
+@import url("../blocks/header/__link/_page/header__link_page_news.css");
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/_page/page_page_news-grid.css);
 @import url(../blocks/content/_page/content_page_news-grid.css);
@@ -25,11 +28,3 @@
 @import url(../blocks/news-grid/__purple-puzzle-bottom/news-grid__purple-puzzle-bottom.css);
 @import url(../blocks/news-grid/__half-green-puzzle-translucent/news-grid__half-green-puzzle-translucent.css);
 
-
-/*
-1. я поправил фон. осталось его адаптировать навкус. это не сложно)
-2. адаптироапл карточки, но чтото им мешает, не понимаю что.
-3. добавил классноую тень карточкам, так луше на белом фоне, мне кажется.
-4. ? остался по мелочи адаптив, за исключением основной пролеьы, которую я описал выше. ?
-
-*/
