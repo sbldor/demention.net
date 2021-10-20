@@ -14,36 +14,15 @@ z-index: 299;
   .test__big-circle {
   width: 220px;
   height: 220px;
-  bottom: 25px;
+  bottom: 20px;
   right: 13px;
   }
 }
 
 @media screen and (max-width:640px) {
   .test__big-circle {
-  bottom: 35px;
-  right: 4px;
+  bottom: 25px;
+  right: 13px;
   }
 }
 
-@keyframes test__big-circle {
-
-  0% {
-      transform: rotate(0deg);
-  }
-  25% {
-      transform: rotate(5deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  75% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}

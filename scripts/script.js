@@ -15,7 +15,6 @@ const slider = new Swiper('.slyder__swiper', {
             slidesPerView: 4,
         },
     },
-
 })
 
 const articleSwiper = new Swiper(".article-slider__swiper", {
@@ -31,11 +30,10 @@ const articleSwiper = new Swiper(".article-slider__swiper", {
 });
 
 const popupMenu = document.querySelector(".popup_type_menu");
-
 const buttonOpenPopup = document.querySelector(".header__burger");
-const buttonClosePopup = document.querySelector(
-    ".popup__close-button_type_menu"
-);
+const buttonClosePopup = document.querySelector(".popup__close-button_type_menu");
+const pageBody = document.querySelector(".body");
+const burgerLink = document.querySelector(".popup__links");
 
 const openPopup = function(popup) {
     popup.classList.add("popup_opened");
@@ -45,14 +43,25 @@ const closePopup = function(popup) {
     popup.classList.remove("popup_opened");
 };
 
-buttonOpenPopup.addEventListener("click", () => openPopup(popupMenu));
-buttonClosePopup.addEventListener("click", () => closePopup(popupMenu));
+const bodyLock = function(body) {
+  body.classList.add("body_locked");
+};
+
+const bodyUnlock = function(body) {
+  body.classList.remove("body_locked");
+};
+
+buttonOpenPopup.addEventListener("click", function () {openPopup(popupMenu), bodyLock(pageBody)});
+buttonClosePopup.addEventListener("click", function () {closePopup(popupMenu), bodyUnlock(pageBody)});
 
 popupMenu.addEventListener("click", function(evt) {
     if (evt.target === evt.currentTarget) {
         closePopup(popupMenu);
+        bodyUnlock(pageBody);
     }
 });
+
+burgerLink.addEventListener("click", function () {closePopup(popupMenu), bodyUnlock(pageBody)});
 
 const sponsorsSwiper = new Swiper('.sponsors__swiper', {
 
