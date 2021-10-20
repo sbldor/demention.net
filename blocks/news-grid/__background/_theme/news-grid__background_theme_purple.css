@@ -1,9 +1,9 @@
 .news-grid__background_theme_purple {
   background-color: #6D097A;
-  top: 800px;
+  top: 772px;
   left: 8.855%;
   z-index: -2;
-  width: calc(100% - 8.855% * 2);
+  width: calc(100% - 8.8% * 2);
 
   height: 800px;
 }

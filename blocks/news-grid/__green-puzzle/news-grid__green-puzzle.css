@@ -3,8 +3,8 @@
   object-fit: contain;
   width: 4.7%;
   height: 5.7%;
-  right: 200px;
-  top: .1%;
+  right: 190px;
+  top: -.8%;
 }
 
 @media (max-width: 1500px) {
