@@ -1,9 +1,29 @@
 .news-grid__half-green-puzzle {
   position: absolute;
-  width: 9.4%;
-  height: 14.1%;
+  width: 9.5%;
+  height: 12.5%;
   bottom: 200px;
   left: 0;
   z-index: -1;
 }
 
+@media (max-width: 1020px) {
+  .news-grid__half-green-puzzle {
+    width: 25%;
+    bottom: 280px;
+  }
+}
+
+@media (max-width: 700px) {
+  .news-grid__half-green-puzzle {
+    width: 18%;
+    bottom: 36%;
+  }
+}
+
+@media (max-width: 400px) {
+  .news-grid__half-green-puzzle {
+    width: 36%;
+    height: 15%;
+  }
+}

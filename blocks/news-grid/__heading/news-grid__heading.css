@@ -1,7 +1,7 @@
 .news-grid__heading {
   margin: auto;
-  margin-bottom: 85px;
-  font-size: 80px;
+  margin-bottom: 70px;
+  font-size: 86px;
   line-height: 1.15;
   font-weight: 800;
   font-style: normal;
@@ -9,6 +9,7 @@
   vertical-align: middle;
   text-transform: uppercase;
   color: #6D097A;
+
 }
 
 @media (max-width: 800px) {

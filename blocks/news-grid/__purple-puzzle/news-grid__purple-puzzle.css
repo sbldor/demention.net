@@ -4,8 +4,8 @@
   height: 120px;*/
   width: 7.3%;
   height: 6.3%;
-  left: 150px;
-  top: 100px;
+  left: 130px;
+  top: 70px;
 }
 
 @media (max-width: 1500px) {
@@ -31,13 +31,14 @@
 @media (max-width: 640px) {
   .news-grid__purple-puzzle {
     width: 15%;
+    left: 100px;
   }
 }
 
 @media (max-width: 400px) {
   .news-grid__purple-puzzle {
-    width: 15%;
+    width: 25%;
     height: 1.5%;
-    left: 50px;
+    left: 25px;
   }
 }
