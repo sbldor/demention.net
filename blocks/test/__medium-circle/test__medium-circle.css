@@ -14,14 +14,14 @@ z-index: 298;
   .test__medium-circle {
   width: 135px;
   height: 135px;
-  bottom: 135px;
+  bottom: 130px;
   right: 25px;
   }
 }
 
 @media screen and (max-width:640px) {
   .test__medium-circle {
-  bottom: 140px;
-  right: 14px;
+  bottom: 130px;
+  right: 23px;
   }
 }
