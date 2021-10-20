@@ -1,5 +1,5 @@
 .test__menu-link {
-  margin-top: 10.5px;
+  margin-top: 13px;
   line-height: 9.5px;
   font-size: 9.5px;
   font-weight: 400;
@@ -15,8 +15,8 @@
 
 @media screen and (max-width:767px) {
   .test__menu-link {
-    font-size: 7.5px;
-    margin-top: 7.5px;
+    font-size: 8.5px;
+    margin-top: 11px;
     line-height: 7.5px;
   }
 }

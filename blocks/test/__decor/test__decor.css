@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:660px) {
   .test__decor {
     width: 34px;
     height: 30px;
