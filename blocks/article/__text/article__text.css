@@ -4,6 +4,7 @@
   line-height: 1.15;
   font-weight: 400;
   font-style: normal;
+  padding: 0 12px;
 }
 
 @media (max-width: 1080px) {
