@@ -30,6 +30,7 @@
 @import url(../blocks/card/__caption/card__caption.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/news-grid/__semicircle/news-grid__semicircle.css);
 @import url(../blocks/news-grid/__green-puzzle/news-grid__green-puzzle.css);
 @import url(../blocks/news-grid/__purple-puzzle/news-grid__purple-puzzle.css);

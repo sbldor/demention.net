@@ -10,6 +10,7 @@
 @import url("../blocks/header/__links/_page/header__links_page_index.css");
 @import url("../blocks/header/__link/_page/header__link_page_index.css");
 @import url("../blocks/header/_page/header_page_index.css");
+@import url("../blocks/header/__links-element/_page/header__links-element_page_index.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/logo/_place/logo_place_popup.css");
@@ -97,6 +98,7 @@
 @import url("../blocks/about/__description/about__description.css");
 @import url("../blocks/about/__decoration-image/about__decoration-image.css");
 @import url("../blocks/about/__button/about__button.css");
+@import url("../blocks/about/__link/about__link.css");
 @import url("../blocks/sponsors/sponsors.css");
 @import url("../blocks/sponsors/__heading/sponsors__heading.css");
 @import url("../blocks/sponsors/__description/sponsors__description.css");
@@ -104,7 +106,6 @@
 @import url("../blocks/sponsors/__decoration-puzzle/sponsors__decoration-puzzle.css");
 @import url("../blocks/sponsors/__swiper/sponsors__swiper.css");
 @import url("../blocks/sponsors/__swiper/sponsors__swiper-slide.css");
-@import url("../blocks/sponsors/__swiper/sponsors__swiper-pagination.css");
 @import url("../blocks/sponsors/__swiper/sponsors__swiper-image.css");
 @import url("../blocks/sponsors/__swiper/sponsors__swiper-button-prev.css");
 @import url("../blocks/sponsors/__swiper/sponsors__swiper-button-next.css");
@@ -116,5 +117,3 @@
 @import url("../blocks/footer/_page/footer_page_news.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/body/_locked/body_locked.css");
-@import url("../blocks/header/__links-element/_page/header__links-element_page_index.css");
-
