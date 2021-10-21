@@ -1,7 +1,8 @@
 .test__menu {
   position: absolute;
-  top: 170px;
-  left: 76px;
+  top: 160px;
+  left: 77px;
+  z-index: 445;
 }
 
 @media screen and (max-width:767px){
@@ -11,9 +12,16 @@
   }
 }
 
+@media screen and (max-width:670px){
+  .test__menu {
+    top: 140px;
+    left: 35px;
+  }
+}
+
 @media screen and (max-width:639px){
   .test__menu {
-    top: 165px;
+    top: 130px;
     left: 25px;
   }
 }

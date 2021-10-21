@@ -1,4 +1,4 @@
-const slider = new Swiper('.slyder__swiper', {
+const slider = new Swiper('.slider__swiper', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

@@ -9,6 +9,8 @@
 @import url("../blocks/header/__container/header__container.css");
 @import url("../blocks/header/__links/_page/header__links_page_index.css");
 @import url("../blocks/header/__link/_page/header__link_page_index.css");
+@import url("../blocks/header/_page/header_page_index.css");
+@import url("../blocks/header/__links-element/_page/header__links-element_page_index.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/logo/_place/logo_place_popup.css");
@@ -28,15 +30,18 @@
 @import url("../blocks/test/__small-circle/test__small-circle.css");
 @import url("../blocks/test/__menu-links/test__menu-links.css");
 @import url("../blocks/test/__menu-link/test__menu-link.css");
+@import url("../blocks/test/__circles-rotate/test__circles-rotate.css");
+@import url("../blocks/test/__circle-animation/test__circle-animation.css");
 @import url("../blocks/article-slider/article-slider.css");
-@import url("../blocks/article-slider/__picture/article-slider__picture.css");
 @import url("../blocks/article-slider/__swiper/article-slider__swiper.css");
 @import url("../blocks/article-slider/__button-next/article-slider__button-next.css");
 @import url("../blocks/article-slider/__button-prev/article-slider__button-prev.css");
+@import url("../blocks/article-slider/__slide/article-slider__slide.css");
 @import url("../blocks/article-slider/__pagination/article-slider__pagination.css");
 @import url("../blocks/article-slider/__info/article-slider__info.css");
 @import url("../blocks/article-slider/__title/article-slider__title.css");
 @import url("../blocks/article-slider/__link/article-slider__link.css");
+@import url("../blocks/article-slider/__decor/article-slider__decor.css");
 @import url("../blocks/info/info.css");
 @import url("../blocks/info/__container/info__container.css");
 @import url("../blocks/info/__container/_flow/info__container_flow_reverse.css");
@@ -112,4 +117,3 @@
 @import url("../blocks/footer/_page/footer_page_news.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/body/_locked/body_locked.css");
-@import url("../blocks/test/__circles-rotate/test__circles-rotate.css");

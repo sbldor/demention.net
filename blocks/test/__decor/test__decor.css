@@ -18,9 +18,18 @@
 
 @media screen and (max-width:660px) {
   .test__decor {
-    width: 34px;
-    height: 30px;
-    top: 73px;
-    right: 100px;
+    width: 44px;
+    height: 40px;
+    top: 50px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .test__decor {
+    width: 25px;
+    height: 25px;
+    top: 40px;
+    right: 90px;
   }
 }
