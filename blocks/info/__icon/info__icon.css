@@ -1,3 +1,4 @@
 .info__icon {
-  position: relative;
+    position: relative;
+    display: block;
 }

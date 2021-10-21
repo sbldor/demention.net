@@ -44,15 +44,15 @@ const closePopup = function(popup) {
 };
 
 const bodyLock = function(body) {
-  body.classList.add("body_locked");
+    body.classList.add("body_locked");
 };
 
 const bodyUnlock = function(body) {
-  body.classList.remove("body_locked");
+    body.classList.remove("body_locked");
 };
 
-buttonOpenPopup.addEventListener("click", function () {openPopup(popupMenu), bodyLock(pageBody)});
-buttonClosePopup.addEventListener("click", function () {closePopup(popupMenu), bodyUnlock(pageBody)});
+buttonOpenPopup.addEventListener("click", function() { openPopup(popupMenu), bodyLock(pageBody) });
+buttonClosePopup.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
 
 popupMenu.addEventListener("click", function(evt) {
     if (evt.target === evt.currentTarget) {
@@ -61,19 +61,13 @@ popupMenu.addEventListener("click", function(evt) {
     }
 });
 
-burgerLink.addEventListener("click", function () {closePopup(popupMenu), bodyUnlock(pageBody)});
+burgerLink.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
 
 const sponsorsSwiper = new Swiper('.sponsors__swiper', {
 
     navigation: {
         nextEl: '.sponsors__swiper-button-next',
         prevEl: '.sponsors__swiper-button-prev'
-    },
-
-    pagination: {
-        el: '.sponsors__swiper-pagination',
-        clickable: true,
-
     },
 
     spaceBetween: -20,
@@ -113,3 +107,39 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
         lastSlideMessage: 'This is the last slide',
     }
 });
+
+
+let animItems = document.querySelectorAll('.anim-items');
+
+if (animItems.length > 0) {
+    window.addEventListener('scroll', animOnScroll);
+
+    function animOnScroll(params) {
+        for (let i = 0; i < animItems.length; i++) {
+            const animItem = animItems[i];
+            const animItemHeight = animItem.offsetHeight;
+            const animItemOffset = offset(animItem).top;
+            const animStart = 4;
+
+            let animItemPoint = window.innerHeight - animItemHeight / animStart;
+            if (animItemHeight > window.innerHeight) {
+                animItemPoint = window.innerHeight - window.innerHeight / animStart;
+            }
+
+            if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                animItem.classList.add('_active');
+            } else {
+                animItem.classList.remove('_active');
+            }
+
+        }
+    }
+
+    function offset(el) {
+        const rect = el.getBoundingClientRect(),
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+    animOnScroll();
+}

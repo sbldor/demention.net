@@ -1,18 +1,28 @@
 .about__heading {
     color: #FEFEFE;
     font-style: normal;
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 50px;
-    margin: 70px 0 20px 0;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+    margin: 55px 0 5px 0;
     text-transform: uppercase;
     padding: 0;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.about__heading._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 @media screen and (max-width: 750px) {
     .about__heading {
-        margin: 15px 0 10px 0;
-        font-size: 34px;
+        margin: 10px 0 5px 0;
+        font-size: 36px;
+        letter-spacing: 0.08em;
         line-height: 42px;
     }
 }
@@ -20,13 +30,13 @@
 @media screen and (max-width: 540px) {
     .about__heading {
         text-align: end;
-        margin: 10px 5% 10px;
+        margin: 10px 4% 10px;
     }
 }
 
 @media screen and (max-width: 370px) {
     .about__heading {
-        font-size: 30px;
-        text-align: center;
+        font-size: 26px;
+        margin: 15px 4% 5px;
     }
 }
