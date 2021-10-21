@@ -7,6 +7,15 @@
     }
 }
 
+@keyframes translate {
+    0% {
+        transofrm: translate(50%, 150%);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
 .rotation {
     animation: rotation 15s linear infinite normal;
 }

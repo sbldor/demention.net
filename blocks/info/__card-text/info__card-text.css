@@ -1,15 +1,15 @@
 .info__card-text {
-  width: 68%;
-  margin: 0;
-  padding: 0;
-  color: #6d097a;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 14px;
+    width: 68%;
+    margin: 0;
+    padding: 0;
+    color: #6d097a;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 960px) {
-  .info__card-text {
-    font-size: 12px;
-  }
+    .info__card-text {
+        font-size: 12px;
+    }
 }
