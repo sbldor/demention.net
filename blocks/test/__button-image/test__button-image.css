@@ -19,8 +19,16 @@
   }
 }
 
-@media screen and (max-width:639px) {
+@media screen and (max-width:660px) {
   .test__button-image {
-    left: 218px;
+    bottom: 25px;
+    left: 172px;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .test__button-image {
+    bottom: 50px;
+    left: 220px;
   }
 }

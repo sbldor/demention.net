@@ -1,0 +1,28 @@
+.article-slider__decor {
+  width: 63px;
+  height: 125px;
+  background-image: url("../../../images/halfcirclewhite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 65px;
+  left: 135px;
+}
+
+@media screen and (max-width:767px) {
+  .article-slider__decor  {
+    width: 53px;
+    height: 105px;
+    bottom: 57px;
+    left: 115px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .article-slider__decor  {
+    background-image: none;
+    top: 0;
+
+
+  }
+}

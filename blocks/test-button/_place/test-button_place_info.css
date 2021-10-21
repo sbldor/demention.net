@@ -1,9 +1,11 @@
 .test-button_place_info {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 700;
   width: 187px;
   height: 43px;
   line-height: 43px;
   margin-top: 50px;
+  letter-spacing:1.1px;
 }
 
 @media screen and (max-width:640px) {
