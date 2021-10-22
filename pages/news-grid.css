@@ -14,6 +14,7 @@
 @import url("../blocks/logo/_place/logo_place_header.css");
 @import url("../blocks/logo/_place/logo_place_popup.css");
 @import url("../blocks/logo/_page/logo_page_news.css");
+@import url("../blocks/test/__circles-rotate/test__circles-rotate.css");
 @import url(../blocks/page/_page/page_page_news-grid.css);
 @import url(../blocks/content/_page/content_page_news-grid.css);
 @import url(../blocks/news-grid/__heading/news-grid__heading.css);
@@ -47,4 +48,5 @@
 @import url("../blocks/footer/_page/footer_page_news.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/body/_locked/body_locked.css");
+
 

@@ -1,12 +1,18 @@
 .news-grid__purple-puzzle-bottom {
   position: absolute;
   bottom: 440px;
-  right: 20px;
+  right: 50px;
   /*width: 170px;
   height: 346px;*/
   width: 8.5%;
   height: 4.5%;
   z-index: -1;
+}
+
+@media (min-width: 1420px) and (max-width: 1835px) {
+  .news-grid__purple-puzzle-bottom {
+    display: none;
+  }
 }
 
 @media (max-width: 1020px) {

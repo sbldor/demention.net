@@ -3,7 +3,7 @@
   height: 96px;
   position: absolute;
   bottom: 0%;
-  right: 11.5%;
+  right: 12.5%;
 }
 
 @media (max-width: 700px) {
@@ -17,4 +17,3 @@
     opacity: .2;
   }
 }
-
