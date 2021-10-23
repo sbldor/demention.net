@@ -7,7 +7,7 @@
   transition: all .7s ease;
 }
 .slider__image:hover {
-  transform: scale(1.16);
+  transform: scale(1.18);
 }
 
 /*@media screen and (max-width: 800px) {

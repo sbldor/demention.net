@@ -189,6 +189,13 @@
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
+.swiper-button-prev.w-new__slider-button-prev {
+  top: 75%;
+}
+
+.swiper-button-next.w-new__slider-button-next {
+  top: 75%;
+}
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0.35;

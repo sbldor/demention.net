@@ -4,6 +4,7 @@
   font-size: 20px;
   line-height: 20px;
   color: black;
+  white-space: nowrap;
 }
 
 @media screen and (max-width:1400px){
@@ -14,6 +15,13 @@
     line-height: 15px;
     margin-left: 18px;
     color: black;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1105px) {
+  .header__link_page_news {
+    font-size: 15px;
+    margin-left: 10px;
   }
 }
 

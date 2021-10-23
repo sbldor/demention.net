@@ -8,10 +8,35 @@
   right: -5.5%;
 }
 
+@media (max-width: 1600px) {
+  .article__green-puzzle {
+    width: 5.1%;
+    top: -.5%;
+    right: -.1%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .article__green-puzzle {
+    width: 6.1%;
+    top: -1%;
+    right: -.2%;
+  }
+}
+
 @media (max-width: 1080px) {
   .article__green-puzzle {
+    width: 10.1%;
     top: .5%;
     right: -2%;
+  }
+}
+
+@media (max-width: 940px) {
+  .article__green-puzzle {
+    width: 6.1%;
+    top: .5%;
+    right: .5%;
   }
 }
 
@@ -19,6 +44,12 @@
   .article__green-puzzle {
     top: 2%;
     right: .5%;
+  }
+}
+
+@media (max-width: 560px) {
+  .article__green-puzzle {
+    top: 1%;
   }
 }
 

@@ -1,3 +1,84 @@
+const slider = new Swiper('.slider__swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 4,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+        },
+        450: {
+            slidesPerView: 3,
+        },
+        800: {
+            slidesPerView: 4,
+        },
+    },
+});
+
+
+const wNewSlider = new Swiper('.w-new__slider', {
+    navigation: {
+        nextEl: '.w-new__slider-button-next',
+        prevEl: '.w-new__slider-button-prev',
+    },
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        350: {
+            spaceBetween: 80,
+            slidesPerView: 2,
+        },
+
+        400: {
+            slidesPerView: 2,
+            spaceBetween: 90,
+        },
+
+
+        410: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        520: {
+
+            spaceBetween: 40,
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+
+        800: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+    },
+
+});
+
+
+const articleSwiper = new Swiper(".article-slider__swiper", {
+    navigation: {
+        nextEl: ".article-slider__button-next",
+        prevEl: ".article-slider__button-prev",
+    },
+    pagination: {
+        el: ".article-slider__pagination",
+        clickable: true,
+    },
+    slidesPerView: 1,
+});
+
 const popupMenu = document.querySelector(".popup_type_menu");
 const buttonOpenPopup = document.querySelector(".header__burger");
 const buttonClosePopup = document.querySelector(".popup__close-button_type_menu");
