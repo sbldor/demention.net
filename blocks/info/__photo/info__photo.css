@@ -1,11 +1,21 @@
 .info__photo {
-  max-width: 100%;
-  margin-top: -40px;
+  max-width: 382px;
+  margin-top: -50px;
   align-self: center;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 740px) {
   .info__photo {
-    margin: 0;
+    max-width: 304px;
+
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .info__photo {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }

@@ -1,5 +1,5 @@
 .test-button_place_info {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   width: 187px;
   height: 43px;
@@ -8,10 +8,12 @@
   letter-spacing:1.1px;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:564px) {
   .test-button_place_info {
     width: 106px;
     height: 24px;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 500;
   }
 }

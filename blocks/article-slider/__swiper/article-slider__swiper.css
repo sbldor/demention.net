@@ -7,3 +7,9 @@
     height: 403px;
   }
 }
+
+@media screen and (max-width:369px){
+  .article-slider__swiper {
+    height: 265px;
+  }
+}

@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 52px;
     left: 71px;
-    z-index: 300;
+    z-index: 303;
     transform: translate(-150%, 0px);
     transition: all 1.5s ease 0s;
 }
@@ -23,9 +23,16 @@
     }
 }
 
-@media screen and (max-width:639px) {
+@media screen and (max-width:660px) {
     .test__button-container {
-        bottom: 33px;
-        left: 88px;
+      bottom: 50px;
+      left: 45px;
     }
+}
+
+@media screen and (max-width:639px) {
+  .test__button-container {
+    bottom: 70px;
+    left: 85px;
+  }
 }

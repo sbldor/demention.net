@@ -2,9 +2,9 @@
     width: 66px;
     height: 56px;
     position: absolute;
-    top: 265px;
-    left: 70px;
-    background-image: url("../../../../images/decor/decor_puzzle-green.png");
+    top: 235px;
+    left: 35px;
+    background-image: url("../../../../images/decor-puzzle-green.svg");
     z-index: 2;
     transform: translate(200%, 100%) rotate(180deg);
     transition: all 5s ease 0s;
@@ -19,16 +19,9 @@
     transition: all 2s ease 0s;
 }
 
-@media screen and (max-width: 960px) {
-    .info__icon_type_puzzle-green {
-        top: 265px;
-        left: 70px;
-    }
-}
-
 @media screen and (max-width: 641px) {
     .info__icon_type_puzzle-green {
-        top: 125px;
-        left: 70px;
+        top: 180px;
+        left: 30px;
     }
 }

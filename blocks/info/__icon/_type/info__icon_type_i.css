@@ -2,7 +2,8 @@
     width: 15px;
     height: 56px;
     margin-left: 30px;
-    background-image: url("../../../../images/decor/icon_i.png");
+    background-image: url("../../../../images/i_icon.svg");
+    background-repeat: no-repeat;
     align-self: center;
     transition: all 1s ease 0s;
 }
@@ -11,8 +12,10 @@
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 639px) {
     .info__icon_type_i {
-        margin-left: 10px;
+      margin-left: 35px;
+        width: 14px;
+        height: 46px;
     }
 }

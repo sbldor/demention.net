@@ -4,4 +4,9 @@
   font-size: 12px;
   line-height: 12px;
   color: black;
+  transition: font-size 0.5s ease;
+}
+
+.header__link_page_index:hover {
+  font-size: 13px;
 }

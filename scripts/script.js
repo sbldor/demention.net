@@ -1,34 +1,3 @@
-const slider = new Swiper('.slider__swiper', {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    slidesPerView: 4,
-    breakpoints: {
-        320: {
-            slidesPerView: 2,
-        },
-        450: {
-            slidesPerView: 3,
-        },
-        800: {
-            slidesPerView: 4,
-        },
-    },
-})
-
-const articleSwiper = new Swiper(".article-slider__swiper", {
-    navigation: {
-        nextEl: ".article-slider__button-next",
-        prevEl: ".article-slider__button-prev",
-    },
-    pagination: {
-        el: ".article-slider__pagination",
-        clickable: true,
-    },
-    slidesPerView: 1,
-});
-
 const popupMenu = document.querySelector(".popup_type_menu");
 const buttonOpenPopup = document.querySelector(".header__burger");
 const buttonClosePopup = document.querySelector(".popup__close-button_type_menu");
@@ -62,6 +31,37 @@ popupMenu.addEventListener("click", function(evt) {
 });
 
 burgerLink.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
+
+const slider = new Swiper('.slider__swiper', {
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 4,
+  breakpoints: {
+      320: {
+          slidesPerView: 2,
+      },
+      450: {
+          slidesPerView: 3,
+      },
+      800: {
+          slidesPerView: 4,
+      },
+  },
+})
+
+const articleSwiper = new Swiper(".article-slider__swiper", {
+  navigation: {
+      nextEl: ".article-slider__button-next",
+      prevEl: ".article-slider__button-prev",
+  },
+  pagination: {
+      el: ".article-slider__pagination",
+      clickable: true,
+  },
+  slidesPerView: 1,
+});
 
 const sponsorsSwiper = new Swiper('.sponsors__swiper', {
 
@@ -143,3 +143,55 @@ if (animItems.length > 0) {
     }
     animOnScroll();
 }
+
+const regionPerm = document.querySelector(".map-section_region_perm");
+const backgroundPerm = document.querySelector(".map-element_region_perm");
+const backgroundVolgograd = document.querySelector(".map-element_region_volgograd");
+const backgroundRostov = document.querySelector(".map-element_region_rostov");
+const regionVolgograd = document.querySelector(".map-section_region_volgograd");
+const regionRostov = document.querySelector(".map-section_region_rostov");
+const popupPerm = document.querySelector(".map__popup_city_perm");
+const popupVolgograd = document.querySelector(".map__popup_city_volgograd");
+const popupRostov = document.querySelector(".map__popup_city_rostov");
+
+regionPerm.addEventListener('mouseenter', function() {
+  backgroundPerm.setAttribute('style','fill: rgb(109, 9, 122)'),
+  popupPerm.removeAttribute('display','none');
+}
+)
+
+regionPerm.addEventListener('mouseleave', () => {
+  backgroundPerm.setAttribute('style','fill: #9a34a8'),
+  popupPerm.setAttribute('display','none');
+}
+)
+
+regionVolgograd.addEventListener('mouseenter', function() {
+  backgroundVolgograd.setAttribute('style','fill: rgb(109, 9, 122)'),
+  popupVolgograd.removeAttribute('display','none');
+}
+)
+
+regionVolgograd.addEventListener('mouseleave', () => {
+  backgroundVolgograd.setAttribute('style','fill: #9a34a8'),
+  popupVolgograd.setAttribute('display','none');
+}
+)
+
+regionRostov.addEventListener('mouseenter', function() {
+  backgroundRostov.setAttribute('style','fill: rgb(109, 9, 122)'),
+  popupRostov.removeAttribute('display','none');
+}
+)
+
+regionRostov.addEventListener('mouseleave', () => {
+  backgroundRostov.setAttribute('style','fill: #9a34a8'),
+  popupRostov.setAttribute('display','none');
+}
+)
+
+
+
+
+
+

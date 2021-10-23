@@ -1,10 +1,10 @@
 .info__icon_type_round-pink {
-    margin-left: -30px;
+  margin-left: -50px;
     width: 95px;
     height: 186px;
     overflow: visible;
     align-self: center;
-    background-image: url("../../../../images/decor/decor_round-pink.png");
+    background-image: url("../../../../images/decor_halfcirlce_pink.svg");
     background-size: cover;
     transform: translate(50%, 0px);
     transition: all 4s ease 0s;
@@ -14,22 +14,18 @@
     transform: translate(0px, 0px);
 }
 
-@media screen and (max-width: 961px) {
-    .info__icon_type_round-pink {
-        margin-left: -50px;
-    }
-}
 
-@media screen and (max-width: 641px) {
+
+@media screen and (max-width: 639px) {
     .info__icon_type_round-pink {
         width: 73px;
         height: 146px;
-        margin-left: -10px;
+        margin-left: -25px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .info__icon_type_round-pink {
-        margin-left: -30px;
+        margin-left: -50px;
     }
 }

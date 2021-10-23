@@ -1,7 +1,7 @@
 .test__decor {
   width: 48px;
   height: 56px;
-  background: url(../../../images/greenpuzzle.png);
+  background: url(../../../images/test_green_puzzle.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
