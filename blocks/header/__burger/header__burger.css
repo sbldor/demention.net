@@ -8,7 +8,7 @@
     display:block;
     width: 49px;
     height: 33px;
-    background-image: url(../../../images/burger.png);
+    background-image: url(../../../images/burger-menu.svg);
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -16,6 +16,7 @@
     top: 30px;
     right: 25px;
     border: none;
+    padding: 0;
   }
 }
 

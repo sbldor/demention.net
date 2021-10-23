@@ -16,10 +16,11 @@
   }
 }
 
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 639px) {
   .info__sub-text {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 40px;
+    max-width: 120px;
+    margin: 10px 0 10px 27px;
+    font-size: 11px;
+    padding: 0;
   }
 }

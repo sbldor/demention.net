@@ -1,0 +1,28 @@
+.map__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.07em;
+  color: #00926F;
+  text-transform: uppercase;
+  margin: 0 0 0 105px;;
+  padding: 0;
+}
+
+@media screen and (max-width:700px){
+  .map__title {
+    font-size: 34px;
+    letter-spacing: 0.14em;
+   margin: 0 0 0 30px;
+  }
+}
+
+@media screen and (max-width:410px){
+  .map__title {
+    font-size: 23px;
+    letter-spacing: 0.14em;
+    margin: 0 0 0 27px;
+  }
+}
+
