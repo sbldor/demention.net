@@ -1,7 +1,7 @@
 .info__content_bkg_img {
   content:"";
   margin-top: 100px;
-  background-image: url("/images/decor/puzzle_decor.png");
+  background-image: url("../../../../images/decor/puzzle_decor.png");
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: top 10px left 5px;
@@ -28,7 +28,7 @@
     min-height: 230px;
     margin: -100px 0 0 0;
     align-self: flex-start;
-    background-image: url("/images/decor/puzzle_decor_flipped.png");
+    background-image: url("../../../../images/decor/puzzle_decor_flipped.png");
     background-size: 190px;
     background-position: bottom left 50px;
   }

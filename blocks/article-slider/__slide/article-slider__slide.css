@@ -1,0 +1,6 @@
+.article-slider__slide {
+  background-image: url(../../../images/maninchair.png);
+  height: 465px;
+  background-size:cover;
+  background-repeat: no-repeat;
+}

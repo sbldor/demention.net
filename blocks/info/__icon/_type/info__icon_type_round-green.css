@@ -5,7 +5,7 @@
   top: 50%;
   left: 105%;
   transform: translate(-50%, -50%);
-  background-image: url("/images/decor/decor_round-green.png");
+  background-image: url("../../../../images/decor/decor_round-green.png");
   background-size: 55px 115px;
 }
 

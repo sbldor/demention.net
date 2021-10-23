@@ -1,25 +1,22 @@
 .article-slider__info {
-  width: 213px;
-  height: 82px;
+  max-width: 213px;
   background-color: #00926F;
-  position: absolute;
-  bottom: 83px;
-  left: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 300px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width:767px) {
   .article-slider__info  {
-    width: 178px;
-    height: 68px;
-    bottom: 60px;
+    max-width: 178px;
+    margin-top: 260px;
   }
 }
 
 @media screen and (max-width:639px) {
   .article-slider__info  {
-    top: 15px;
+    margin-top: 0;
   }
 }

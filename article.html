@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/pages/article.css">
-  <link rel="stylesheet" href="/pages/news-grid.css">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="pages/article.css">
+  <link rel="stylesheet" href="pages/news-grid.css">
+  <link rel="stylesheet" href="./vendor/swiper-bundle.css">
   <title>Новости</title>
 </head>
 <body class="body">
@@ -17,50 +14,50 @@
     <header class="header header_page_news-grid">
       <div class="header__burger"></div>
       <div class="header__container">
-        <a href="./"
+        <a href="index.html"
         ><img class="logo logo_page_news" src="./images/logo.svg" alt="логотип">
         </a>
-        <nav class="header__menu">
-          <ul class="header__links header__links_page_news">
-            <li>
-              <a href="" class="header__link header__link_page_news">О ДЕМЕНЦИИ</a>
-            </li>
-            <li>
-              <a href="" class="header__link header__link_page_news">ПРОЕКТЫ</a>
-            </li>
-            <li>
-              <a href="" class="header__link header__link_page_news">ПАРТНЕРЫ</a>
-            </li>
-            <li>
-              <a href="" class="header__link header__link_page_news">НОВОСТИ</a>
-            </li>
-            <li>
-              <a href="" class="header__link header__link_page_news">О ФОНДЕ</a>
-            </li>
-            <li>
-              <a href="" class="header__link header__link_page_news">КОНТАКТЫ</a>
-            </li>
-          </ul>
-        </nav>
+         <nav class="header__menu">
+            <ul class="header__links header__links_page_news">
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="./index.html#info" class="header__link header__link_page_news">О ДЕМЕНЦИИ</a>
+              </li>
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="./index.html#projects" class="header__link header__link_page_news">ПРОЕКТЫ</a>
+              </li>
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="./index.html#sponsors" class="header__link header__link_page_news">ПАРТНЕРЫ</a>
+              </li>
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="./news-grid.html" class="header__link header__link_page_news">НОВОСТИ</a>
+              </li>
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="./index.html#about" class="header__link header__link_page_news">О ФОНДЕ</a>
+              </li>
+              <li class="header__links-element header__links-element_page_news">
+                  <a href="#" class="header__link header__link_page_news">КОНТАКТЫ</a>
+              </li>
+           </ul>
+          </nav>
       </div>
     </header>
     <main class="content content_page_article">
-      <section title="article">
+      <section title="article" class="article">
 
         <div class="article__heading-case">
-          <h1 class="article__heading">Заголовок новости</h1>
-          <p class="article__date">14.10.2021</p>
-          <img src="/images/article-purple-puzzle.svg" alt="." class="article__purple-puzzle">
+          <h1 class="article__heading">В Москве открылись пункты для диагностики болезни Альцгеймера и других когнитивных изменений</h1>
+          <time class="article__date">14.10.2021</time>
+          <img src="images/article-purple-puzzle.svg" alt="." class="article__purple-puzzle rotation">
         </div>
 
         <div class="article__background"></div>
 
         <div class="article__item">
-          <img src="/images/article-green-puzzle.svg" alt="." class="article__green-puzzle">
-          <img src="/images/old-woman.jpg" alt="old woman" class="article__image">
+          <img src="images/article-green-puzzle.svg" alt="." class="article__green-puzzle">
+          <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="Нейрон" class="article__image">
           <div class="article__description-case">
-            <img src="/images/purple-semicircle.svg" alt="." class="article__purple-semicircle">
-            <p class="article__description">В Москве открылись пункты для диагностики болезни Альцгеймера и других когнитивных изменений</p>
+            <img src="images/purple-semicircle.svg" alt="." class="article__purple-semicircle">
+            <p class="article__description">1 октября в рамках проекта Деменция.net благотворительного фонда «Память поколений» открылись корнеры по ранней диагностике когнитивных изменений.</p>
           </div>
           <p class="article__text">На&nbsp;четырех стациях метро Москвы 1&nbsp;октября в&nbsp;рамках проекта Деменция.net благотворительного фонда &laquo;Память поколений&raquo; открылись корнеры по&nbsp;ранней диагностике когнитивных изменений. Об&nbsp;этом сообщает газета ВЗГЛЯД.
             Тестирование, которое сможет пройти любой желающий на&nbsp;безвозмездной основе, проходит на&nbsp;станциях &laquo;Курская&raquo;, &laquo;Маяковская&raquo;, &laquo;Тургеневская&raquo;, &laquo;Киевская&raquo; при строгом соблюдении мер безопасности&nbsp;&mdash; с&nbsp;соблюдением социальной дистанции и&nbsp;в&nbsp;масках.
@@ -72,7 +69,7 @@
           <p class="article__text">Сегодня свыше 2&nbsp;млн человек в&nbsp;России уже столкнулись с&nbsp;проблемами памяти, мышления и&nbsp;другими когнитивными изменениями, которые являются первыми признаками очень серьезных заболеваний. С&nbsp;подобными проблемами порой сталкиваются и&nbsp;наши подопечные. По&nbsp;прогнозам, к&nbsp;2030 году более 1&nbsp;млрд людей по&nbsp;всему миру будут охвачены этими заболеваниями и&nbsp;уже не&nbsp;смогут вернуться к&nbsp;прежней жизни. Мы&nbsp;нацелены на&nbsp;то, чтобы наши проекты по&nbsp;ранней диагностике когнитивных заболеваний были полезны не&nbsp;только подопечным нашего фонда, но&nbsp;всем гражданам нашей страны. Очень надеемся, что наши корнеры и&nbsp;центры помогут справиться с&nbsp;проблемой когнитивного здоровья и&nbsp;улучшат ситуацию по&nbsp;стране в&nbsp;целом&raquo;,&nbsp;&mdash; сказала исполнительный директор фонда &laquo;Память поколений&raquo; Екатерина Круглова.
             Указывается, что &laquo;Память поколений&raquo; существует с&nbsp;2015 года и&nbsp;оказывает высокотехнологичную медицинскую помощь ветеранам Великой Отечественной войны и&nbsp;других боевых действий, а&nbsp;также развивает активное долголетие на&nbsp;территории всей страны. Всего за&nbsp;время существования фонд помог почти 16&nbsp;тыс. ветеранов, проживающим в&nbsp;различных городах России.
           </p>
-          <button class="article__button">Перейти к ленте новостей</button>
+          <a href="/news-grid.html" class="article__button">Перейти к ленте новостей</a>
         </div>
 
       </section>
@@ -91,37 +88,33 @@
         ></button>
         <nav class="popup__menu">
           <ul class="popup__links">
-            <li>
-              <a href="" class="popup__link">О ДЕМЕНЦИИ</a>
-            </li>
-            <li>
-              <a
-                href="https://xn--d1acamsh7dwd.net/test/testUser/"
-                class="popup__link"
-                >ПРОЙТИ ТЕСТ</a
-              >
-            </li>
-            <li>
-              <a href="" class="popup__link">ПРОЕКТЫ</a>
-            </li>
-            <li>
-              <a href="" class="popup__link">ПАРТНЕРЫ</a>
-            </li>
-            <li>
-              <a href="" class="popup__link">НОВОСТИ</a>
-            </li>
-            <li>
-              <a href="" class="popup__link">О ФОНДЕ</a>
-            </li>
-            <li>
-              <a href="" class="popup__link">КОНТАКТЫ</a>
-            </li>
+              <li>
+                  <a href="./index.html#info"  class="popup__link">О ДЕМЕНЦИИ</a>
+              </li>
+              <li>
+                  <a href="https://xn--d1acamsh7dwd.net/test/testUser/" class="popup__link">ПРОЙТИ ТЕСТ</a>
+              </li>
+              <li>
+                  <a href="./index.html#projects" class="popup__link">ПРОЕКТЫ</a>
+              </li>
+              <li>
+                  <a href="./index.html#sponsors" class="popup__link">ПАРТНЕРЫ</a>
+              </li>
+              <li>
+                  <a href="./news-grid.html" class="popup__link">НОВОСТИ</a>
+              </li>
+              <li>
+                  <a href="./index.html#fond" class="popup__link">О ФОНДЕ</a>
+              </li>
+              <li>
+                  <a href="#" class="popup__link">КОНТАКТЫ</a>
+              </li>
           </ul>
-        </nav>
+      </nav>
       </div>
     </div>
   </div>
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./scripts/swiper-bundle.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 </html>

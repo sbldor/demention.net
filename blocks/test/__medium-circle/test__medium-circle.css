@@ -10,18 +10,25 @@ bottom: 155px;
 z-index: 298;
 }
 
-@media screen and (max-width:890px) {
+
+@media screen and (max-width:930px) {
   .test__medium-circle {
   width: 135px;
   height: 135px;
-  bottom: 135px;
+  bottom: 130px;
   right: 25px;
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:660px) {
   .test__medium-circle {
   bottom: 140px;
-  right: 14px;
+  right: 23px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .test__medium-circle {
+  bottom: 160px;
   }
 }

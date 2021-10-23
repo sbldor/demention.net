@@ -18,9 +18,9 @@
   }
 }
 
-@media screen and (max-width:639px){
+@media screen and (max-width:660px){
   .test__puzzles {
-    bottom: 77px;
+    bottom: 105px;
     left: 38px;
   }
 }

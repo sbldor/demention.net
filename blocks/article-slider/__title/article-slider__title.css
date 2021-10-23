@@ -1,10 +1,11 @@
 .article-slider__title {
 max-width: 150px;
-font-size: 16px;
-line-height: 16px;;
+font-size: 19px;
+line-height: 18px;;
 font-weight: 400;
+letter-spacing:1.5px;
 color: white;
-margin: 10px 0 0 10px;
+margin: 0 0 0 35px;
 text-overflow: ellipsis;
 overflow: hidden;
 }

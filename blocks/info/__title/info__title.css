@@ -1,27 +1,40 @@
 .info__title {
-  margin: 0;
-  padding: 100px 0 50px;
-  color: #6d097a;
-  font-size: 50px;
-  font-weight: 400;
-  text-transform: uppercase;
+    margin: 0;
+    padding: 100px 0 50px;
+    color: #6d097a;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: translate(-150%, 0px);
+    opacity: 0;
+    transition: all 1.5s ease 0s;
+}
+
+.info__title._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.info__title:hover {
+    color: #00926F;
+    transition: color 0.5s ease 0s;
 }
 
 @media screen and (max-width: 1280px) {
-  .info__title {
-    padding: 100px 40px 50px 40px;
-    font-size: 45px;
-  }
+    .info__title {
+        padding: 100px 40px 50px 40px;
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 960px) {
-  .info__title {
-    font-size: 35px;
-  }
+    .info__title {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 641px) {
-  .info__title {
-    padding: 30px;
-  }
+    .info__title {
+        padding: 30px;
+    }
 }

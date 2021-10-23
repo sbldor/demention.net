@@ -1,3 +1,8 @@
 .sponsors__swiper-slide {
     margin-left: 4px;
+    transition: transform .7s ease;
+}
+
+.sponsors__swiper-slide:hover {
+    transform: scale(1.2);
 }

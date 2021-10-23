@@ -1,9 +1,10 @@
-const slider = new Swiper('.slyder__swiper', {
+const slider = new Swiper('.slider__swiper', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
     slidesPerView: 4,
+    loop: true,
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -15,8 +16,54 @@ const slider = new Swiper('.slyder__swiper', {
             slidesPerView: 4,
         },
     },
+});
 
-})
+const wNewSlider = new Swiper('.w-new__slider', {
+    navigation: {
+        nextEl: '.w-new__slider-button-next',
+        prevEl: '.w-new__slider-button-prev',
+    },
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        350: {
+            spaceBetween: 80,
+            slidesPerView: 2,
+        },
+
+        400: {
+            slidesPerView: 2,
+            spaceBetween: 90,
+        },
+
+
+        410: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        520: {
+
+            spaceBetween: 40,
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+
+        800: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+    },
+
+});
 
 const articleSwiper = new Swiper(".article-slider__swiper", {
     navigation: {
@@ -31,11 +78,10 @@ const articleSwiper = new Swiper(".article-slider__swiper", {
 });
 
 const popupMenu = document.querySelector(".popup_type_menu");
-
 const buttonOpenPopup = document.querySelector(".header__burger");
-const buttonClosePopup = document.querySelector(
-    ".popup__close-button_type_menu"
-);
+const buttonClosePopup = document.querySelector(".popup__close-button_type_menu");
+const pageBody = document.querySelector(".body");
+const burgerLink = document.querySelector(".popup__links");
 
 const openPopup = function(popup) {
     popup.classList.add("popup_opened");
@@ -45,26 +91,31 @@ const closePopup = function(popup) {
     popup.classList.remove("popup_opened");
 };
 
-buttonOpenPopup.addEventListener("click", () => openPopup(popupMenu));
-buttonClosePopup.addEventListener("click", () => closePopup(popupMenu));
+const bodyLock = function(body) {
+    body.classList.add("body_locked");
+};
+
+const bodyUnlock = function(body) {
+    body.classList.remove("body_locked");
+};
+
+buttonOpenPopup.addEventListener("click", function() { openPopup(popupMenu), bodyLock(pageBody) });
+buttonClosePopup.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
 
 popupMenu.addEventListener("click", function(evt) {
     if (evt.target === evt.currentTarget) {
         closePopup(popupMenu);
+        bodyUnlock(pageBody);
     }
 });
+
+burgerLink.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
 
 const sponsorsSwiper = new Swiper('.sponsors__swiper', {
 
     navigation: {
         nextEl: '.sponsors__swiper-button-next',
         prevEl: '.sponsors__swiper-button-prev'
-    },
-
-    pagination: {
-        el: '.sponsors__swiper-pagination',
-        clickable: true,
-
     },
 
     spaceBetween: -20,
@@ -104,3 +155,39 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
         lastSlideMessage: 'This is the last slide',
     }
 });
+
+
+let animItems = document.querySelectorAll('.anim-items');
+
+if (animItems.length > 0) {
+    window.addEventListener('scroll', animOnScroll);
+
+    function animOnScroll(params) {
+        for (let i = 0; i < animItems.length; i++) {
+            const animItem = animItems[i];
+            const animItemHeight = animItem.offsetHeight;
+            const animItemOffset = offset(animItem).top;
+            const animStart = 4;
+
+            let animItemPoint = window.innerHeight - animItemHeight / animStart;
+            if (animItemHeight > window.innerHeight) {
+                animItemPoint = window.innerHeight - window.innerHeight / animStart;
+            }
+
+            if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                animItem.classList.add('_active');
+            } else {
+                animItem.classList.remove('_active');
+            }
+
+        }
+    }
+
+    function offset(el) {
+        const rect = el.getBoundingClientRect(),
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+    animOnScroll();
+}

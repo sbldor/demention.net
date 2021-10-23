@@ -1,6 +1,7 @@
 .slider {
-  position: relative;
-  box-sizing: border-box;
-  padding: 50px 0 100px;
-  margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 0 50px;
+    margin: auto;
+    overflow: hidden;
 }

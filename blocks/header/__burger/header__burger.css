@@ -1,6 +1,6 @@
 .header__burger {
   display: none;
-  z-index:456;
+  z-index: 456;
 }
 
 @media screen and (max-width:767px) {
@@ -10,18 +10,19 @@
     height: 33px;
     background-image: url(../../../images/burger.png);
     background-size: contain;
+    background-color: transparent;
     background-repeat: no-repeat;
     position: fixed;
-    top: 40px;
+    top: 30px;
     right: 25px;
+    border: none;
   }
 }
 
 @media screen and (max-width:639px) {
   .header__burger {
     width: 47px;
-    height: 21px;
+    height: 25px;
     top: 30px;
-    right: 18px;
   }
 }
