@@ -4,6 +4,7 @@ const slider = new Swiper('.slider__swiper', {
         prevEl: '.swiper-button-prev',
     },
     slidesPerView: 4,
+    loop: true,
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -15,7 +16,56 @@ const slider = new Swiper('.slider__swiper', {
             slidesPerView: 4,
         },
     },
-})
+});
+
+
+const wNewSlider = new Swiper('.w-new__slider', {
+    navigation: {
+        nextEl: '.w-new__slider-button-next',
+        prevEl: '.w-new__slider-button-prev',
+    },
+    slidesPerView: 5,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        350: {
+            spaceBetween: 80,
+            slidesPerView: 2,
+        },
+
+        400: {
+            slidesPerView: 2,
+            spaceBetween: 90,
+        },
+
+
+        410: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        520: {
+
+            spaceBetween: 40,
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+
+        800: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+    },
+
+});
+
 
 const articleSwiper = new Swiper(".article-slider__swiper", {
     navigation: {
