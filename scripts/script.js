@@ -18,6 +18,7 @@ const slider = new Swiper('.slider__swiper', {
     },
 });
 
+
 const wNewSlider = new Swiper('.w-new__slider', {
     navigation: {
         nextEl: '.w-new__slider-button-next',
@@ -64,6 +65,7 @@ const wNewSlider = new Swiper('.w-new__slider', {
     },
 
 });
+
 
 const articleSwiper = new Swiper(".article-slider__swiper", {
     navigation: {
