@@ -19,9 +19,16 @@
     transition: all 2s ease 0s;
 }
 
+@media screen and (max-width: 750px) {
+    .info__icon_type_puzzle-green {
+        top: 200px;
+        left: 30px;
+    }
+}
+
 @media screen and (max-width: 641px) {
     .info__icon_type_puzzle-green {
-        top: 180px;
+        top: 130px;
         left: 30px;
     }
 }

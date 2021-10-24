@@ -6,7 +6,7 @@
     font-size: 12px;
     line-height: 180%;
     letter-spacing: 0.4px;
-    transform: translate(0px, 110%);
+    transform: translate(0px, 80%);
     padding: 0;
     opacity: 0;
     transition: all 1s ease 0s;
@@ -18,24 +18,22 @@
     opacity: 1;
 }
 
-
 @media screen and (max-width: 886px) {
-  .info__text {
-    margin: 10px 0 0 40px;
-  }
+    .info__text {
+        margin: 10px 0 0 40px;
+    }
 }
 
 @media screen and (max-width: 760px) {
-  .info__text {
-    font-size: 12px;
-  }
-
+    .info__text {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 639px) {
-  .info__text {
-    max-width: 80%;
-    margin: 10px auto 55px;
-    font-size: 11px;
-  }
+    .info__text {
+        max-width: 80%;
+        margin: 10px auto 55px;
+        font-size: 11px;
+    }
 }

@@ -7,11 +7,15 @@
   position: absolute;
   bottom: 65px;
   left: 135px;
-  transition: background-image 0.5s ease;
+  transform: translate(50%, 0px);
+  transition: all 5s ease;
 }
 
-.article-slider__decor:hover {
+.article-slider__decor._active {
+  transform: translate(0px, 0px);
   background-image: url("../../../images/decor_halfcirlce_pink.svg");
+  width: 63px;
+  height: 125px;
 }
 
 @media screen and (max-width:767px) {
@@ -27,7 +31,5 @@
   .article-slider__decor  {
     background-image: none;
     top: 0;
-
-
   }
 }

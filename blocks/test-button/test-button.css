@@ -10,3 +10,7 @@
     text-decoration: none;
     cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }
+
+.test-button:hover {
+    box-shadow: 5px 5px 20px 2px grey;
+}

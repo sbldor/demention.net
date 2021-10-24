@@ -14,8 +14,7 @@
 
 @media screen and (max-width: 639px) {
     .info__icon_type_i {
-      margin-left: 30px;
-        width: 14px;
+        margin-left: 30px;
         height: 46px;
     }
 }
