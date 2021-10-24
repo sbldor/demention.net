@@ -188,6 +188,7 @@
   align-items: center;
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }
 .swiper-button-prev.w-new__slider-button-prev {
   top: 75%;

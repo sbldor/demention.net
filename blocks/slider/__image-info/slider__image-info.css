@@ -16,7 +16,7 @@
   color: white;
   transition: all .7s ease;
   text-transform: uppercase;
-
+  cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }
 .slider__image-info:hover {
   background-color: rgba(0, 0, 0, .4);

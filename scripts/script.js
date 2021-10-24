@@ -204,41 +204,42 @@ const popupPerm = document.querySelector(".map__popup_city_perm");
 const popupVolgograd = document.querySelector(".map__popup_city_volgograd");
 const popupRostov = document.querySelector(".map__popup_city_rostov");
 
-regionPerm.addEventListener('mouseenter', function() {
-  backgroundPerm.setAttribute('style','fill: rgb(109, 9, 122)'),
-  popupPerm.removeAttribute('display','none');
-}
-)
+if(document.getElementById('map')) {
+  regionPerm.addEventListener('mouseenter', function() {
+    backgroundPerm.setAttribute('style','fill: rgb(109, 9, 122)'),
+    popupPerm.removeAttribute('display','none');
+  }
+  );
+  regionPerm.addEventListener('mouseleave', () => {
+    backgroundPerm.setAttribute('style','fill: #9a34a8'),
+    popupPerm.setAttribute('display','none');
+  }
+  );
 
-regionPerm.addEventListener('mouseleave', () => {
-  backgroundPerm.setAttribute('style','fill: #9a34a8'),
-  popupPerm.setAttribute('display','none');
-}
-)
+  regionVolgograd.addEventListener('mouseenter', function() {
+    backgroundVolgograd.setAttribute('style','fill: rgb(109, 9, 122)'),
+    popupVolgograd.removeAttribute('display','none');
+  }
+  );
 
-regionVolgograd.addEventListener('mouseenter', function() {
-  backgroundVolgograd.setAttribute('style','fill: rgb(109, 9, 122)'),
-  popupVolgograd.removeAttribute('display','none');
-}
-)
+  regionVolgograd.addEventListener('mouseleave', () => {
+    backgroundVolgograd.setAttribute('style','fill: #9a34a8'),
+    popupVolgograd.setAttribute('display','none');
+  }
+  );
 
-regionVolgograd.addEventListener('mouseleave', () => {
-  backgroundVolgograd.setAttribute('style','fill: #9a34a8'),
-  popupVolgograd.setAttribute('display','none');
-}
-)
+  regionRostov.addEventListener('mouseenter', function() {
+    backgroundRostov.setAttribute('style','fill: rgb(109, 9, 122)'),
+    popupRostov.removeAttribute('display','none');
+  }
+  );
 
-regionRostov.addEventListener('mouseenter', function() {
-  backgroundRostov.setAttribute('style','fill: rgb(109, 9, 122)'),
-  popupRostov.removeAttribute('display','none');
+  regionRostov.addEventListener('mouseleave', () => {
+    backgroundRostov.setAttribute('style','fill: #9a34a8'),
+    popupRostov.setAttribute('display','none');
+  }
+  );
 }
-)
-
-regionRostov.addEventListener('mouseleave', () => {
-  backgroundRostov.setAttribute('style','fill: #9a34a8'),
-  popupRostov.setAttribute('display','none');
-}
-)
 
 
 

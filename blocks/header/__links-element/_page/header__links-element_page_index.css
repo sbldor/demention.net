@@ -1,3 +1,8 @@
 .header__links-element_page_index {
   margin-left: 14px;
+  transition: border-bottom 0.5s cubic-bezier(0.2,-2,0.8,2);
+}
+
+.header__links-element_page_index:hover {
+  border-bottom: 2px solid #6D097A;
 }
