@@ -1,3 +1,49 @@
+const sponsorsSwiper = new Swiper('.sponsors__swiper', {
+
+    navigation: {
+        nextEl: '.sponsors__swiper-button-next',
+        prevEl: '.sponsors__swiper-button-prev'
+    },
+
+    spaceBetween: -20,
+
+    slidesPerGroup: 1,
+
+    loop: true,
+
+    autoplay: {
+
+        delay: 2000,
+
+        stopOnLastSlide: false,
+
+        disableOnInteraction: true
+    },
+
+    speed: 1000,
+
+    breakpoints: {
+        319: {
+            slidesPerView: 3,
+        },
+        650: {
+            slidesPerView: 4,
+        },
+        860: {
+            slidesPerView: 5,
+        }
+    },
+
+    ally: {
+        enabled: true,
+        prevSlideMessage: 'Previous slide',
+        nextSlideMessage: 'Next slide',
+        firstSlideMessage: 'This is the first slide',
+        lastSlideMessage: 'This is the last slide',
+    }
+});
+
+
 const slider = new Swiper('.slider__swiper', {
     navigation: {
         nextEl: '.swiper-button-next',
@@ -66,7 +112,6 @@ const wNewSlider = new Swiper('.w-new__slider', {
 
 });
 
-
 const articleSwiper = new Swiper(".article-slider__swiper", {
     navigation: {
         nextEl: ".article-slider__button-next",
@@ -112,82 +157,6 @@ popupMenu.addEventListener("click", function(evt) {
 });
 
 burgerLink.addEventListener("click", function() { closePopup(popupMenu), bodyUnlock(pageBody) });
-
-const slider = new Swiper('.slider__swiper', {
-  navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-  },
-  slidesPerView: 4,
-  breakpoints: {
-      320: {
-          slidesPerView: 2,
-      },
-      450: {
-          slidesPerView: 3,
-      },
-      800: {
-          slidesPerView: 4,
-      },
-  },
-})
-
-const articleSwiper = new Swiper(".article-slider__swiper", {
-  navigation: {
-      nextEl: ".article-slider__button-next",
-      prevEl: ".article-slider__button-prev",
-  },
-  pagination: {
-      el: ".article-slider__pagination",
-      clickable: true,
-  },
-  slidesPerView: 1,
-});
-
-const sponsorsSwiper = new Swiper('.sponsors__swiper', {
-
-    navigation: {
-        nextEl: '.sponsors__swiper-button-next',
-        prevEl: '.sponsors__swiper-button-prev'
-    },
-
-    spaceBetween: -20,
-
-    slidesPerGroup: 1,
-
-    loop: true,
-
-    autoplay: {
-
-        delay: 2000,
-
-        stopOnLastSlide: false,
-
-        disableOnInteraction: true
-    },
-
-    speed: 1000,
-
-    breakpoints: {
-        319: {
-            slidesPerView: 3,
-        },
-        650: {
-            slidesPerView: 4,
-        },
-        860: {
-            slidesPerView: 5,
-        }
-    },
-
-    ally: {
-        enabled: true,
-        prevSlideMessage: 'Previous slide',
-        nextSlideMessage: 'Next slide',
-        firstSlideMessage: 'This is the first slide',
-        lastSlideMessage: 'This is the last slide',
-    }
-});
 
 
 let animItems = document.querySelectorAll('.anim-items');
