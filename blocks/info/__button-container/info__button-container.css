@@ -27,13 +27,13 @@
     .info__button-container {
         align-self: flex-end;
         bottom: -110px;
-        left: 351px;
+        left: 335px;
     }
 }
 
 @media screen and (max-width: 564px) {
     .info__button-container {
-        left: 331px;
+        left: 329px;
     }
 }
 
