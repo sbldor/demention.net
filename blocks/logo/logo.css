@@ -1,5 +1,5 @@
 .logo {
   background-size: contain;
   background-repeat: no-repeat;
-  cursor: url("../../../images/cursor_pointer.svg"), pointer;
+  cursor: url("../../images/cursor_pointer.svg"), pointer;
 }
