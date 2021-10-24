@@ -7,6 +7,11 @@
   position: absolute;
   bottom: 65px;
   left: 135px;
+  transition: background-image 0.5s ease;
+}
+
+.article-slider__decor:hover {
+  background-image: url("../../../images/decor_halfcirlce_pink.svg");
 }
 
 @media screen and (max-width:767px) {

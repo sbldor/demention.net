@@ -84,8 +84,8 @@
 @import url('../blocks/slider/__image-container/slider__image-container.css');
 @import url('../blocks/slider/__image-info/slider__image-info.css');
 @import url('../blocks/slider/__slide/slider__slide.css');
-@import url('../blocks/slider/__slide-purple/slider__slide-purple.css');
-@import url('../blocks/slider/__slide-green/slider__slide-green.css');
+@import url('../blocks/slider/__slide/_color/slider__slide_color_green.css');
+@import url('../blocks/slider/__slide/_color/slider__slide_color_purple.css');
 @import url('../blocks/slider/__subtitle/slider__subtitle.css');
 @import url('../blocks/slider/__swiper/slider__swiper.css');
 @import url('../blocks/slider/__title/slider__title.css');

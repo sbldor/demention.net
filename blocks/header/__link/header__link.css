@@ -1,7 +1,4 @@
 .header__link {
   text-decoration: none;
-}
-
-.header__link:hover {
-  border-bottom: 2px solid #6D097A;
+  cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }

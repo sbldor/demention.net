@@ -8,4 +8,5 @@
     border: none;
     text-align: center;
     text-decoration: none;
+    cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }

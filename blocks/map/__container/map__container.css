@@ -2,6 +2,7 @@
   max-width: 691px;
   min-height: 149px;
   margin: 0 auto 81px 129px;
+  cursor: url("../../../images/cursor_pointer.svg"), pointer;
 }
 
 @media screen and (max-width:830px){
