@@ -7,7 +7,14 @@
   position: absolute;
   bottom: 20px;
   left: 260px;
+  transform: translate(50%, 0%);
+  transition: all 1s ease 0s;
   z-index: 304;
+}
+
+.info__button-image._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 @media screen and (max-width:660px) {
