@@ -1,55 +1,56 @@
 .info__button-container {
-  display: flex;
-  position: absolute;
-  bottom: 42px;
-  left: 91px;
-  z-index: 305;
-  transform: translate(50%, 0%);
-  opacity: 0;
-  transition: all 1s ease 0s;
+    display: flex;
+    position: absolute;
+    bottom: 42px;
+    left: 91px;
+    z-index: 305;
+    transform: translate(-50%, 0%);
+    transition: all 1.5s ease 0s;
 }
 
 .info__button-container._active {
-  transform: translate(0px, 0px);
-  opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.info__button-container:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 660px) {
-  .info__button-container {
-    bottom: 52px;
-    left: 51px;
-  }
+    .info__button-container {
+        bottom: 52px;
+        left: 51px;
+    }
 }
 
 @media screen and (max-width: 639px) {
-  .info__button-container {
-    align-self: flex-end;
-    bottom: -110px;
-    left: 351px;
-  }
+    .info__button-container {
+        align-self: flex-end;
+        bottom: -110px;
+        left: 351px;
+    }
 }
 
 @media screen and (max-width: 564px) {
-  .info__button-container {
-    left: 331px;
-  }
+    .info__button-container {
+        left: 331px;
+    }
 }
 
-
 @media screen and (max-width: 460px) {
-  .info__button-container {
-    left: 271px;
-  }
+    .info__button-container {
+        left: 271px;
+    }
 }
 
 @media screen and (max-width: 390px) {
-  .info__button-container {
-    left: 211px;
-  }
+    .info__button-container {
+        left: 211px;
+    }
 }
 
 @media screen and (max-width: 340px) {
-  .info__button-container {
-    left: 191px;
-  }
+    .info__button-container {
+        left: 191px;
+    }
 }

@@ -4,7 +4,7 @@
     bottom: 52px;
     left: 71px;
     z-index: 303;
-    transform: translate(-150%, 0px);
+    transform: translate(-70%, 0px);
     transition: all 1.5s ease 0s;
 }
 
@@ -25,14 +25,14 @@
 
 @media screen and (max-width:660px) {
     .test__button-container {
-      bottom: 50px;
-      left: 45px;
+        bottom: 50px;
+        left: 45px;
     }
 }
 
 @media screen and (max-width:639px) {
-  .test__button-container {
-    bottom: 70px;
-    left: 85px;
-  }
+    .test__button-container {
+        bottom: 70px;
+        left: 85px;
+    }
 }

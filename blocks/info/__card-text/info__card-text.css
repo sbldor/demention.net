@@ -6,13 +6,18 @@
     font-style: italic;
     font-weight: 500;
     font-size: 12px;
+    transition: all 1s ease;
+}
+
+.info__card-text:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 700px) {
-  .info__card-text {
-    max-width: 141px;
-    font-size: 8px;
-    line-height: 13px;
-    margin: 5px 0 0 30px;
-  }
+    .info__card-text {
+        max-width: 141px;
+        font-size: 8px;
+        line-height: 13px;
+        margin: 5px 0 0 30px;
+    }
 }
