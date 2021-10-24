@@ -51,6 +51,16 @@ const slider = new Swiper('.slider__swiper', {
     },
     slidesPerView: 4,
     loop: true,
+    autoplay: {
+
+      delay: 1500,
+
+      stopOnLastSlide: false,
+
+      disableOnInteraction: true
+  },
+
+    speed: 1500,
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -73,6 +83,16 @@ const wNewSlider = new Swiper('.w-new__slider', {
     slidesPerView: 5,
     spaceBetween: 20,
     loop: true,
+    autoplay: {
+
+      delay: 2000,
+
+      stopOnLastSlide: false,
+
+      disableOnInteraction: true
+  },
+
+    speed: 2000,
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -122,6 +142,18 @@ const articleSwiper = new Swiper(".article-slider__swiper", {
         clickable: true,
     },
     slidesPerView: 1,
+    loop: true,
+
+    autoplay: {
+
+        delay: 2000,
+
+        stopOnLastSlide: false,
+
+        disableOnInteraction: true
+    },
+
+    speed: 2000,
 });
 
 const popupMenu = document.querySelector(".popup_type_menu");
