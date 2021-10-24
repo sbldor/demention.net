@@ -7,29 +7,26 @@
   position: absolute;
   bottom: 65px;
   left: 135px;
-  transform: translate(50%, 0px);
+  transform: translate(10px, 0px);
   transition: all 5s ease;
 }
 
 .article-slider__decor._active {
   transform: translate(0px, 0px);
   background-image: url("../../../images/decor_halfcirlce_pink.svg");
-  width: 63px;
-  height: 125px;
 }
 
-@media screen and (max-width:767px) {
-  .article-slider__decor  {
+@media screen and (max-width: 767px) {
+  .article-slider__decor {
     width: 53px;
     height: 105px;
     bottom: 57px;
-    left: 115px;
+    left: 105px;
   }
 }
 
-@media screen and (max-width:639px) {
-  .article-slider__decor  {
-    background-image: none;
-    top: 0;
+@media screen and (max-width: 639px) {
+  .article-slider__decor {
+    display: none;
   }
 }
