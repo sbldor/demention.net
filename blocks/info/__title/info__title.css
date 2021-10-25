@@ -1,11 +1,9 @@
 .info__title {
-    margin: 0;
-    padding: 100px 0 50px;
     color: #6D097A;
     font-size: 44px;
-    font-weight: 900;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 3.9px;
+    letter-spacing: 0.1px;
     transform: translate(-80%, 0px);
     margin: 85px 0 0 102px;
     padding: 0;

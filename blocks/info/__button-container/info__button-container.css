@@ -1,7 +1,7 @@
 .info__button-container {
     display: flex;
     position: absolute;
-    bottom: 42px;
+    bottom: 52px;
     left: 91px;
     z-index: 305;
     transform: translate(-50%, 0%);
@@ -51,6 +51,7 @@
 
 @media screen and (max-width: 340px) {
     .info__button-container {
-        left: 191px;
+        left: 168px;
+        bottom: -85px;
     }
 }

@@ -9,3 +9,9 @@
     height: 403px;
   }
 }
+
+@media screen and (max-width: 369px) {
+  .test {
+    max-height: 391px;
+  }
+}

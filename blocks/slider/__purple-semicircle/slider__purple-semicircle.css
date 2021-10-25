@@ -1,6 +1,6 @@
 .slider__purple-semicircle {
     position: absolute;
-    top: 147px;
+    top: 210px;
     right: 0;
     height: 271px;
     transform: rotate(180deg);
@@ -15,7 +15,7 @@
 @media screen and (max-width: 650px) {
     .slider__purple-semicircle {
         height: 262px;
-        top: 137px;
+        top: 197px;
     }
 }
 
@@ -23,6 +23,6 @@
 @media screen and (max-width: 550px) {
     .slider__purple-semicircle {
         height: 252px;
-        top: 126px;
+        top: 186px;
     }
 }

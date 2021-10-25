@@ -1,8 +1,8 @@
 .test__button-container {
     display: flex;
     position: absolute;
-    bottom: 52px;
-    left: 71px;
+    bottom: 51px;
+    left: 70px;
     z-index: 303;
     transform: translate(-70%, 0px);
     transition: all 1.5s ease 0s;
@@ -35,4 +35,11 @@
         bottom: 70px;
         left: 85px;
     }
+}
+
+@media screen and (max-width: 369px) {
+  .test__button-container {
+    bottom: 55px;
+    left: 85px;
+  }
 }

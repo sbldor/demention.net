@@ -1,10 +1,10 @@
 .test__menu-link {
   margin-top: 13px;
-  line-height: 9.2px;
+  line-height: 7px;
   font-size: 10px;
   font-weight: 700;
   text-decoration: none;
-  letter-spacing:0.5px;
+  letter-spacing:1.1px;
   display: inline-block;
   color:#2B2A29;
   transition: font-size 0.5s ease,

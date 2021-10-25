@@ -39,3 +39,10 @@
     left: 215px;
   }
 }
+
+@media screen and (max-width: 369px) {
+  .test__button-image {
+    bottom: 35px;
+    left: 217px;
+  }
+}

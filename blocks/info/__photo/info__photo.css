@@ -19,3 +19,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .info__photo {
+    width: 319px;
+    height:172px;
+  }
+}

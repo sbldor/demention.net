@@ -6,22 +6,14 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
     },
 
     spaceBetween: -20,
-
     slidesPerGroup: 1,
-
     loop: true,
-
     autoplay: {
-
         delay: 2000,
-
         stopOnLastSlide: false,
-
         disableOnInteraction: true
     },
-
     speed: 1000,
-
     breakpoints: {
         319: {
             slidesPerView: 3,
@@ -33,7 +25,6 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
             slidesPerView: 5,
         }
     },
-
     ally: {
         enabled: true,
         prevSlideMessage: 'Previous slide',
@@ -43,7 +34,6 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
     }
 });
 
-
 const slider = new Swiper('.slider__swiper', {
     navigation: {
         nextEl: '.swiper-button-next',
@@ -52,11 +42,8 @@ const slider = new Swiper('.slider__swiper', {
     slidesPerView: 4,
     loop: true,
     autoplay: {
-
       delay: 1500,
-
       stopOnLastSlide: false,
-
       disableOnInteraction: true
   },
 
@@ -74,7 +61,6 @@ const slider = new Swiper('.slider__swiper', {
     },
 });
 
-
 const wNewSlider = new Swiper('.w-new__slider', {
     navigation: {
         nextEl: '.w-new__slider-button-next',
@@ -84,11 +70,8 @@ const wNewSlider = new Swiper('.w-new__slider', {
     spaceBetween: 20,
     loop: true,
     autoplay: {
-
       delay: 2000,
-
       stopOnLastSlide: false,
-
       disableOnInteraction: true
   },
 
@@ -102,18 +85,14 @@ const wNewSlider = new Swiper('.w-new__slider', {
             spaceBetween: 80,
             slidesPerView: 2,
         },
-
         400: {
             slidesPerView: 2,
             spaceBetween: 90,
         },
-
-
         410: {
             slidesPerView: 3,
             spaceBetween: 30,
         },
-
         520: {
 
             spaceBetween: 40,
@@ -123,7 +102,6 @@ const wNewSlider = new Swiper('.w-new__slider', {
             slidesPerView: 4,
             spaceBetween: 20,
         },
-
         800: {
             slidesPerView: 5,
             spaceBetween: 20,
@@ -143,16 +121,11 @@ const articleSwiper = new Swiper(".article-slider__swiper", {
     },
     slidesPerView: 1,
     loop: true,
-
     autoplay: {
-
         delay: 2000,
-
         stopOnLastSlide: false,
-
         disableOnInteraction: true
     },
-
     speed: 2000,
 });
 

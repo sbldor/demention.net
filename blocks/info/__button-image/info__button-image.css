@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 260px;
     transform: translate(50%, 0%);
     transition: all 1s ease 0s;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width:660px) {
     .info__button-image {
-        bottom: 32px;
+        bottom: 30px;
         left: 221px;
     }
 }
@@ -27,7 +27,7 @@
 @media screen and (max-width:639px) {
     .info__button-image {
         bottom: -133px;
-        left: 500px;
+        left: 505px;
     }
 }
 
@@ -36,7 +36,7 @@
         width: 26px;
         height: 51px;
         bottom: -123px;
-        left: 422px;
+        left: 425px;
     }
 }
 
@@ -45,18 +45,19 @@
         width: 26px;
         height: 51px;
         bottom: -123px;
-        left: 363px;
+        left: 367px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .info__button-image {
-        left: 305px;
+        left: 307px;
     }
 }
 
 @media screen and (max-width: 340px) {
     .info__button-image {
-        left: 285px;
+        left: 267px;
+        bottom: -99px;
     }
 }

@@ -5,8 +5,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 65px;
-  left: 135px;
+  bottom: 60px;
+  left: 120px;
   transform: translate(10px, 0px);
   transition: all 5s ease;
 }
