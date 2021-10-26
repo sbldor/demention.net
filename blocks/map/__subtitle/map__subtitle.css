@@ -5,7 +5,7 @@
     line-height: 22px;
     letter-spacing: 0.05em;
     color: #5b5b5b;
-    margin: 0 0 0 105px;
+    margin: 0 0 20px 105px;
     padding: 0;
     transform: translate(0px, 120%);
     opacity: 0;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width:700px) {
     .map__subtitle {
-        margin: 0 0 0 30px;
+        margin: 0 0 20px 45px;
         font-size: 14px;
         line-height: 14px;
         letter-spacing: 0.04em;
@@ -28,9 +28,9 @@
 
 @media screen and (max-width:410px) {
     .map__subtitle {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 7px;
         letter-spacing: 0.04em;
-        margin: 0 0 0 30px;
+        margin: -10px 0 15px 30px;
     }
 }

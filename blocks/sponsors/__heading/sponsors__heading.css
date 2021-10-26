@@ -6,7 +6,7 @@
     letter-spacing: 0.07em;
     color: #6D097A;
     text-transform: uppercase;
-    margin: 135px 0 0 10%;
+    margin: 130px 0 0 10%;
     padding: 0;
     transform: translate(0px, 120%);
     opacity: 0;
@@ -25,7 +25,7 @@
 @media screen and (max-width: 750px) {
     .sponsors__heading {
         font-size: 38px;
-        margin: 110px 0 0 6%;
+        margin: 100px 0 0 6%;
         letter-spacing: 0.08em;
     }
 }

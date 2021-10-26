@@ -1,7 +1,7 @@
 .info__button-container {
     display: flex;
     position: absolute;
-    bottom: 52px;
+    bottom: 72px;
     left: 91px;
     z-index: 305;
     transform: translate(-50%, 0%);
