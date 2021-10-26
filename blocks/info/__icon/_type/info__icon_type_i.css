@@ -12,9 +12,16 @@
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 641px) {
     .info__icon_type_i {
-        margin-left: 30px;
+        margin-left: 50px;
+        height: 46px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .info__icon_type_i {
+        margin-left: 40px;
         height: 46px;
     }
 }

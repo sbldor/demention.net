@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 641px) {
     .info__icon_type_round-pink {
         width: 73px;
         height: 146px;
@@ -30,8 +30,14 @@
     }
 }
 
+@media screen and (max-width: 520px) {
+    .info__icon_type_round-pink {
+        margin-left: -40px;
+    }
+}
+
 @media screen and (max-width: 390px) {
     .info__icon_type_round-pink {
-        margin-left: -50px;
+        margin-left: -40px;
     }
 }

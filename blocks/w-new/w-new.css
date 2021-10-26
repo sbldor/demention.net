@@ -1,5 +1,11 @@
 .w-new {
-  padding-top: 20px;
-  position: relative;
-  box-sizing: border-box;
+    padding-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+    .w-new {
+        padding-top: 0;
+    }
 }

@@ -13,7 +13,7 @@
     text-transform: uppercase;
     color: #FEFEFE;
     padding: 3% 6%;
-    margin: 0 0 70px 0;
+    margin: 0 0 75px 0;
     border: none;
     box-shadow: 5px 5px 15px 2px gray;
     box-sizing: border-box;
@@ -31,7 +31,7 @@
         max-width: 230px;
         font-size: 13px;
         line-height: 17px;
-        margin: 0 4% 60px 0;
+        margin: 0 4% 75px 0;
     }
 }
 
