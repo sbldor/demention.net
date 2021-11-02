@@ -10,10 +10,6 @@
     transition: all 1s ease;
 }
 
-.info__card-text:hover {
-    transform: scale(1.2);
-}
-
 @media screen and (max-width: 700px) {
     .info__card-text {
         max-width: 141px;
