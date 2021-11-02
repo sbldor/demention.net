@@ -13,22 +13,22 @@
 }
 
 @media screen and (max-width: 650px) {
-    .slider__purple-semicircle {
-        height: 262px;
-        top: 160px;
-    }
+  .slider__purple-semicircle {
+      height: 262px;
+      top: 155px;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .slider__purple-semicircle {
-        height: 252px;
-        top: 186px;
-    }
+  .slider__purple-semicircle {
+      height: 252px;
+      top: 148px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .slider__purple-semicircle {
-        height: 202px;
-        top: 100px;
-    }
+  .slider__purple-semicircle {
+      height: 202px;
+      top: 97px;
+  }
 }

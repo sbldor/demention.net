@@ -12,10 +12,6 @@
     transition: all 1s ease;
 }
 
-.card:hover {
-    transform: scale(1.1);
-}
-
 @media (max-width: 1500px) {
     .card {
         width: 420px;
