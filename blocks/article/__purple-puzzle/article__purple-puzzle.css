@@ -12,6 +12,13 @@
   }
 }
 
+@media (max-width: 600px) {
+  .article__purple-puzzle {
+    width: 88px;
+    height: 84px;
+  }
+}
+
 @media (max-width: 400px) {
   .article__purple-puzzle {
     opacity: .2;
