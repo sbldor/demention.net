@@ -3,6 +3,3 @@
     transition: transform .7s ease;
 }
 
-.sponsors__swiper-slide:hover {
-    transform: scale(1.2);
-}
