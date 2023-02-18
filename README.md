@@ -21,6 +21,6 @@
 
 ## Ссылки
 
-[Project on GitHub]()
+[Project on GitHub](https://vitcatman.github.io/demention.net/)
 
 [Курс Yandex Praktikum](https://praktikum.yandex.ru/profile/web-plus/)
